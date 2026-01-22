@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_aee035ff22cdfa540a1bc3294decd944 {
+                #map_f69659fff7bbe3fc651dd766b1acd161 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -66,13 +66,11 @@
     border-radius: 6px;
     font-size: 12px;
 ">
-<b>🟠 Offentliga toaletter – Stockholms stad</b><br><br>
-
-<span style="background:#ff6600;border-radius:50%;display:inline-block;width:12px;height:12px;"></span>
- Kommunal toalett<br><br>
+<b>🟠 Offentliga toaletter – Stockholms stad version 0.1</b><br><br>
+<small><i>Karta genererad: {generated_at}</i></small><br><br>
 
 <b>Syfte</b><br>
-Datat används för att verifiera och förbättra OSM
+Datat används för att verifiera och förbättra OSM Stockholm stad gör om en hel del se issue
 (<i>amenity=toilets</i>).<br><br>
 
 <b>Mer info</b><br>
@@ -84,14 +82,14 @@ Stockholms stads öppna data
 </a>
 </div>
     
-            <div class="folium-map" id="map_aee035ff22cdfa540a1bc3294decd944" ></div>
+            <div class="folium-map" id="map_f69659fff7bbe3fc651dd766b1acd161" ></div>
         
 </body>
 <script>
     
     
-            var map_aee035ff22cdfa540a1bc3294decd944 = L.map(
-                "map_aee035ff22cdfa540a1bc3294decd944",
+            var map_f69659fff7bbe3fc651dd766b1acd161 = L.map(
+                "map_f69659fff7bbe3fc651dd766b1acd161",
                 {
                     center: [59.3293, 18.0686],
                     crs: L.CRS.EPSG3857,
@@ -108,7 +106,7 @@ Stockholms stads öppna data
 
         
     
-            var tile_layer_71de3f465a5fc3d028b057025c7c1b3b = L.tileLayer(
+            var tile_layer_62fe27f84387a369ff7e08e576cf4c51 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -125,22 +123,22 @@ Stockholms stads öppna data
             );
         
     
-            tile_layer_71de3f465a5fc3d028b057025c7c1b3b.addTo(map_aee035ff22cdfa540a1bc3294decd944);
+            tile_layer_62fe27f84387a369ff7e08e576cf4c51.addTo(map_f69659fff7bbe3fc651dd766b1acd161);
         
     
-            var feature_group_d4a0d65bfa99432428e40cad85b9c785 = L.featureGroup(
+            var feature_group_429b730321380d94b2f0b44bbb0243c4 = L.featureGroup(
                 {
 }
             );
         
     
-            var circle_marker_ea13b6c9759bf7efbeabe8fbe30d7225 = L.circleMarker(
+            var circle_marker_b858567c776c525007212ca5a172ca68 = L.circleMarker(
                 [59.32999303270969, 18.00287085334272],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_ea13b6c9759bf7efbeabe8fbe30d7225.bindTooltip(
+            circle_marker_b858567c776c525007212ca5a172ca68.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Frödingsvägen 13<br>
@@ -155,13 +153,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_b23cc9952c40f4570aa6671c2d98d71b = L.circleMarker(
+            var circle_marker_6d35015c50e4dca8a9bb019084db346e = L.circleMarker(
                 [59.32688902919962, 18.052494515205368],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_b23cc9952c40f4570aa6671c2d98d71b.bindTooltip(
+            circle_marker_6d35015c50e4dca8a9bb019084db346e.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Norr Mälarstrand 3 - kajen<br>
@@ -176,13 +174,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_7ddc8879aba545e153776059556993f0 = L.circleMarker(
+            var circle_marker_eb0bc8cfd45db9036e145f96966d3f78 = L.circleMarker(
                 [59.317364878259156, 18.086913633873227],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_7ddc8879aba545e153776059556993f0.bindTooltip(
+            circle_marker_eb0bc8cfd45db9036e145f96966d3f78.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Fjällgatan 37<br>
@@ -197,13 +195,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_6de05db9c5d462db1357e71074ee7720 = L.circleMarker(
+            var circle_marker_8f379af4f129ad5801ccb8005e97ae17 = L.circleMarker(
                 [59.337913929851055, 18.06104526469309],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_6de05db9c5d462db1357e71074ee7720.bindTooltip(
+            circle_marker_8f379af4f129ad5801ccb8005e97ae17.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Sveavägen 39A<br>
@@ -218,13 +216,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_f818321d08e35192457b1965b76c4e36 = L.circleMarker(
+            var circle_marker_8a190db505f08487bff434624acea5c1 = L.circleMarker(
                 [59.33495546647865, 18.055312213257885],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_f818321d08e35192457b1965b76c4e36.bindTooltip(
+            circle_marker_8a190db505f08487bff434624acea5c1.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Norra Bantorget - Vasagatan 59<br>
@@ -239,13 +237,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_69f03413adca48cd4a6cba274f528da8 = L.circleMarker(
+            var circle_marker_d4a893258121ee5b192b2b4252f611d0 = L.circleMarker(
                 [59.304223974566334, 18.07078424334475],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_69f03413adca48cd4a6cba274f528da8.bindTooltip(
+            circle_marker_d4a893258121ee5b192b2b4252f611d0.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Eriksdalsbadet<br>
@@ -260,13 +258,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_a25fae32707581b6d919a5a055017096 = L.circleMarker(
+            var circle_marker_c15d3d8713ceabd2f64034646e54cc34 = L.circleMarker(
                 [59.27622645878713, 18.130954894128482],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_a25fae32707581b6d919a5a055017096.bindTooltip(
+            circle_marker_c15d3d8713ceabd2f64034646e54cc34.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Bagarmossen C t-bana<br>
@@ -281,13 +279,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_2c0834441c21d13c7504d18196af84e4 = L.circleMarker(
+            var circle_marker_ce169814c05affb1fcbf9c0bc55f5f80 = L.circleMarker(
                 [59.285635718068605, 17.91615911766791],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_2c0834441c21d13c7504d18196af84e4.bindTooltip(
+            circle_marker_ce169814c05affb1fcbf9c0bc55f5f80.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Sätradalsparken - Lövsätragränd 42<br>
@@ -302,13 +300,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_59dcf12c361e1a33ce3f5851930720cd = L.circleMarker(
+            var circle_marker_883a48a02002f3271a144e39277d9a78 = L.circleMarker(
                 [59.339645874420476, 18.03728219874699],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_59dcf12c361e1a33ce3f5851930720cd.bindTooltip(
+            circle_marker_883a48a02002f3271a144e39277d9a78.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Sankt Eriksplan 6C<br>
@@ -323,13 +321,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_bb905d050ffdfadf8d74fb639d69201f = L.circleMarker(
+            var circle_marker_ce1a73d9de4bc9869dd29222447dba10 = L.circleMarker(
                 [59.27156699847077, 17.898857315368105],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_bb905d050ffdfadf8d74fb639d69201f.bindTooltip(
+            circle_marker_ce1a73d9de4bc9869dd29222447dba10.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Västerholmsparken<br>
@@ -344,13 +342,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_0ac4207f2a7b802fa9a3a40914dd52b2 = L.circleMarker(
+            var circle_marker_fd765a0b1a775c75a80bc2c53a3edce9 = L.circleMarker(
                 [59.316084728362924, 18.056492197525277],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_0ac4207f2a7b802fa9a3a40914dd52b2.bindTooltip(
+            circle_marker_fd765a0b1a775c75a80bc2c53a3edce9.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Wollmar Yxkullsgatan - Rosenlundsgatan<br>
@@ -365,13 +363,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_c3075a2ebb18a23d9b2d5cc47efc0d06 = L.circleMarker(
+            var circle_marker_5691ad6c8d904127520f9efba3efe79e = L.circleMarker(
                 [59.343238023514836, 18.095967713363432],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_c3075a2ebb18a23d9b2d5cc47efc0d06.bindTooltip(
+            circle_marker_5691ad6c8d904127520f9efba3efe79e.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Tessinparken - De Geersgatan 13<br>
@@ -386,13 +384,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_56d1a86396ad0a402f0168c4d4624860 = L.circleMarker(
+            var circle_marker_ba6442f0e2c49e451755af9cb7e6fb37 = L.circleMarker(
                 [59.30159280546609, 18.016595587171746],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_56d1a86396ad0a402f0168c4d4624860.bindTooltip(
+            circle_marker_ba6442f0e2c49e451755af9cb7e6fb37.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Nioörtsvägen 24<br>
@@ -407,13 +405,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_30e7c88dc0d8a6bb7ac09011d4bdf151 = L.circleMarker(
+            var circle_marker_2766a2b982175815b470e0da7f82c325 = L.circleMarker(
                 [59.29773242471494, 17.997008305269237],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_30e7c88dc0d8a6bb7ac09011d4bdf151.bindTooltip(
+            circle_marker_2766a2b982175815b470e0da7f82c325.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Mikrofonvägen 4<br>
@@ -428,13 +426,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_bcc1d7c62d969d733725e287085c503c = L.circleMarker(
+            var circle_marker_8a7a489c3c8661b509fbe71d45b6e69b = L.circleMarker(
                 [59.33152983365567, 18.00384205155917],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_bcc1d7c62d969d733725e287085c503c.bindTooltip(
+            circle_marker_8a7a489c3c8661b509fbe71d45b6e69b.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Adlerbethsgatan 23<br>
@@ -449,13 +447,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_e8b61710897aac41a31f5103cff493b3 = L.circleMarker(
+            var circle_marker_ac7355579aea643e10185e95fe92b433 = L.circleMarker(
                 [59.29425453454719, 17.976217805892684],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_e8b61710897aac41a31f5103cff493b3.bindTooltip(
+            circle_marker_ac7355579aea643e10185e95fe92b433.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Skidvägen 11<br>
@@ -470,13 +468,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_982d24e1c2dd3e10e59a91b1a22dcfa4 = L.circleMarker(
+            var circle_marker_b7f7dc64948fe645c54ac5c027e382df = L.circleMarker(
                 [59.33747039867989, 18.073733624079107],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_982d24e1c2dd3e10e59a91b1a22dcfa4.bindTooltip(
+            circle_marker_b7f7dc64948fe645c54ac5c027e382df.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Sturegatan 12 - Humlegården<br>
@@ -491,13 +489,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_794c7e088a8bc24aac36080750a91ff9 = L.circleMarker(
+            var circle_marker_f98059db274ad2bad097b34898c1e07b = L.circleMarker(
                 [59.32176879952681, 18.025070996835627],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_794c7e088a8bc24aac36080750a91ff9.bindTooltip(
+            circle_marker_f98059db274ad2bad097b34898c1e07b.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Långholmsbadet<br>
@@ -512,13 +510,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_b8ce6d424e49f5a5606012c9a53eff82 = L.circleMarker(
+            var circle_marker_60a5c01ceabac7d52999648739173cd7 = L.circleMarker(
                 [59.33851777285443, 18.05540320302912],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_b8ce6d424e49f5a5606012c9a53eff82.bindTooltip(
+            circle_marker_60a5c01ceabac7d52999648739173cd7.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Tegnerlunden<br>
@@ -533,13 +531,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_51023c5670c146dd07cebc9c9ab8644b = L.circleMarker(
+            var circle_marker_d8da11e9a844d289b6a09b8f2eab932f = L.circleMarker(
                 [59.407261493596074, 17.918542496721965],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_51023c5670c146dd07cebc9c9ab8644b.bindTooltip(
+            circle_marker_d8da11e9a844d289b6a09b8f2eab932f.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Husbystigen 9<br>
@@ -554,13 +552,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_bf5dee9372dc95c4e19f784803f2b24c = L.circleMarker(
+            var circle_marker_d9567ee3ce4229a1aeb64b1c6d5c2fde = L.circleMarker(
                 [59.33167070423282, 18.02799723176801],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_bf5dee9372dc95c4e19f784803f2b24c.bindTooltip(
+            circle_marker_d9567ee3ce4229a1aeb64b1c6d5c2fde.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Fridhemsplan 23A<br>
@@ -575,13 +573,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_3bc0a600843438b0063fe0c98a8ce369 = L.circleMarker(
+            var circle_marker_9ccb5023148d52f0eae8855a72b0c955 = L.circleMarker(
                 [59.31272923986922, 18.038167350083842],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_3bc0a600843438b0063fe0c98a8ce369.bindTooltip(
+            circle_marker_9ccb5023148d52f0eae8855a72b0c955.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Tantolunden-Skarpskyttestigen 6   <br>
@@ -596,13 +594,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_55490793c96a6718554c64eca546186a = L.circleMarker(
+            var circle_marker_582acd1bd09b18f1013d3b5025f8fdbc = L.circleMarker(
                 [59.294320429113576, 18.07876493750687],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_55490793c96a6718554c64eca546186a.bindTooltip(
+            circle_marker_582acd1bd09b18f1013d3b5025f8fdbc.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Arenavägen - Palmfeltsvägen<br>
@@ -617,13 +615,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_7054a1d54607736181715cf629773163 = L.circleMarker(
+            var circle_marker_d78256542be65ed93b27db263ca58cc2 = L.circleMarker(
                 [59.33888881156158, 17.938628499245812],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_7054a1d54607736181715cf629773163.bindTooltip(
+            circle_marker_d78256542be65ed93b27db263ca58cc2.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Klädesvägen 3<br>
@@ -638,13 +636,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_2226ebfc4dbb0cbf5d606b4d3e2ab1d8 = L.circleMarker(
+            var circle_marker_9425b475e993b12cb7e61ecfb2982fff = L.circleMarker(
                 [59.31940199962714, 18.031516314749535],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_2226ebfc4dbb0cbf5d606b4d3e2ab1d8.bindTooltip(
+            circle_marker_9425b475e993b12cb7e61ecfb2982fff.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Söder Mälarstrand 115 <br>
@@ -659,13 +657,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_46d8700a4d3dd5ae546468e696e20308 = L.circleMarker(
+            var circle_marker_a2b26bc3be2b04c1bfbf5e1025017e39 = L.circleMarker(
                 [59.324587341449636, 18.095805933395503],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_46d8700a4d3dd5ae546468e696e20308.bindTooltip(
+            circle_marker_a2b26bc3be2b04c1bfbf5e1025017e39.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Allmänna Gränd-Djurgården   <br>
@@ -680,13 +678,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_4345b0288af95e83a20da613c1a47724 = L.circleMarker(
+            var circle_marker_4981ee8719fa4ec460b991f96e521d6d = L.circleMarker(
                 [59.3366153624459, 17.952260803156545],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_4345b0288af95e83a20da613c1a47724.bindTooltip(
+            circle_marker_4981ee8719fa4ec460b991f96e521d6d.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Abrahamsberg (mitt emot T-stationen)<br>
@@ -701,13 +699,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_ed82aac4bd8bc627f0e7413ae8bf5557 = L.circleMarker(
+            var circle_marker_2c6e9b2871235dce566fa2f9978afe5f = L.circleMarker(
                 [59.32790454232425, 18.057956335599766],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_ed82aac4bd8bc627f0e7413ae8bf5557.bindTooltip(
+            circle_marker_2c6e9b2871235dce566fa2f9978afe5f.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Klara Mälarstrand 4<br>
@@ -722,13 +720,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_ec97931228097febade46aefae9c907c = L.circleMarker(
+            var circle_marker_a3be1a841414938daf9cff6899fd8d4e = L.circleMarker(
                 [59.362247713303596, 17.872147449774406],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_ec97931228097febade46aefae9c907c.bindTooltip(
+            circle_marker_a3be1a841414938daf9cff6899fd8d4e.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Vällinby torg - Vittangiplan 28<br>
@@ -743,13 +741,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_67dfe11f8b4f9fcba76c042ccb6c3dc7 = L.circleMarker(
+            var circle_marker_ee604a99a649917bbfe1c8d551b792e8 = L.circleMarker(
                 [59.36727519618273, 17.869381771099214],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_67dfe11f8b4f9fcba76c042ccb6c3dc7.bindTooltip(
+            circle_marker_ee604a99a649917bbfe1c8d551b792e8.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Lyckselevägen 58  Grötfatet parklek<br>
@@ -764,13 +762,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_4fedee7e66bd90fa0f6d850b29994596 = L.circleMarker(
+            var circle_marker_ebc5676e20b731be030524718e908036 = L.circleMarker(
                 [59.278839186301134, 18.008943951878422],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_4fedee7e66bd90fa0f6d850b29994596.bindTooltip(
+            circle_marker_ebc5676e20b731be030524718e908036.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Älvsjö torg 19<br>
@@ -785,13 +783,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_b44ce76aeb881f66955e30a41fa6074a = L.circleMarker(
+            var circle_marker_00364430f4a5ca0d20772fe6cd82a7bf = L.circleMarker(
                 [59.33922864207851, 18.082246633292257],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_b44ce76aeb881f66955e30a41fa6074a.bindTooltip(
+            circle_marker_00364430f4a5ca0d20772fe6cd82a7bf.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Karlavägen - Sibyllegatan<br>
@@ -806,13 +804,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_955ee37fc96a80e966054de45416ed7b = L.circleMarker(
+            var circle_marker_1ca3250fd5cdaa4b39bb5b2b69efd451 = L.circleMarker(
                 [59.327072486620196, 18.069418255018885],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_955ee37fc96a80e966054de45416ed7b.bindTooltip(
+            circle_marker_1ca3250fd5cdaa4b39bb5b2b69efd451.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Slottskajen - Stallbron - Mynttorget<br>
@@ -827,13 +825,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_26af401d663126113eb23be156fac55b = L.circleMarker(
+            var circle_marker_a0106b3755fda16379e88ff2e2e6203a = L.circleMarker(
                 [59.34002496076691, 18.004930958201403],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_26af401d663126113eb23be156fac55b.bindTooltip(
+            circle_marker_a0106b3755fda16379e88ff2e2e6203a.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Hornsberg strand 77 - Pär Lagerkvists gata<br>
@@ -848,13 +846,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_7971329b70b62cd53b0a1ead547c6e80 = L.circleMarker(
+            var circle_marker_4d32511cec67b2f4bb1f7b17f0295a7c = L.circleMarker(
                 [59.33996180966577, 18.078653782974673],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_7971329b70b62cd53b0a1ead547c6e80.bindTooltip(
+            circle_marker_4d32511cec67b2f4bb1f7b17f0295a7c.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Karlavägen 40<br>
@@ -869,13 +867,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_40cf47d7e157a28943e445cccbeb504a = L.circleMarker(
+            var circle_marker_175c88abf215ae56fea101fa6f8108f8 = L.circleMarker(
                 [59.32600999581941, 18.095544816116824],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_40cf47d7e157a28943e445cccbeb504a.bindTooltip(
+            circle_marker_175c88abf215ae56fea101fa6f8108f8.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Djurgårdsvägen 60<br>
@@ -890,13 +888,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_22b1b5f5c7f151699829542386db21d4 = L.circleMarker(
+            var circle_marker_4193554f494857a326ed95d0038fb97a = L.circleMarker(
                 [59.32310281150122, 18.075407994099443],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_22b1b5f5c7f151699829542386db21d4.bindTooltip(
+            circle_marker_4193554f494857a326ed95d0038fb97a.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Skeppsbron 38<br>
@@ -911,13 +909,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_294b0b2ac197ba82846b29df847db68c = L.circleMarker(
+            var circle_marker_96b417de5e77719ec302009bda876011 = L.circleMarker(
                 [59.263153152391354, 18.04287397745233],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_294b0b2ac197ba82846b29df847db68c.bindTooltip(
+            circle_marker_96b417de5e77719ec302009bda876011.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Skebokvarnsvägen - busstorget<br>
@@ -932,13 +930,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_c0f2e5d40c06be7907ffd72d87f964e1 = L.circleMarker(
+            var circle_marker_5619ff0280b751651abdc56215ed8cbc = L.circleMarker(
                 [59.32855188831954, 18.070066627115256],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_c0f2e5d40c06be7907ffd72d87f964e1.bindTooltip(
+            circle_marker_5619ff0280b751651abdc56215ed8cbc.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Strömparterren 3   <br>
@@ -953,13 +951,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_0870f6088faf9586017627332c8cbb88 = L.circleMarker(
+            var circle_marker_d9b77b1b84d4b74b6a14dae26570497f = L.circleMarker(
                 [59.35485525593404, 18.097835324929925],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_0870f6088faf9586017627332c8cbb88.bindTooltip(
+            circle_marker_d9b77b1b84d4b74b6a14dae26570497f.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Hjorthagen/Artemistgatan 91<br>
@@ -974,13 +972,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_482641e83c79415c04385774cd530568 = L.circleMarker(
+            var circle_marker_f1444ac7135dd79ec44eaf2b5a68303e = L.circleMarker(
                 [59.340882956186896, 18.054299733359954],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_482641e83c79415c04385774cd530568.bindTooltip(
+            circle_marker_f1444ac7135dd79ec44eaf2b5a68303e.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Drottninggatan<br>
@@ -995,13 +993,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_0e98e5fdc90a87b3b85320ed52690069 = L.circleMarker(
+            var circle_marker_ec9c3521a35fac0dc82abca21711a80e = L.circleMarker(
                 [59.29783755150862, 18.08127713116306],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_0e98e5fdc90a87b3b85320ed52690069.bindTooltip(
+            circle_marker_ec9c3521a35fac0dc82abca21711a80e.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Arenagången - under busstorget<br>
@@ -1016,13 +1014,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_5d9f501d9d5e789f3771ce3e4c3df34b = L.circleMarker(
+            var circle_marker_563422c4f742b5a9ad254aaae00ce1af = L.circleMarker(
                 [59.31495192551015, 18.07273106633269],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_5d9f501d9d5e789f3771ce3e4c3df34b.bindTooltip(
+            circle_marker_563422c4f742b5a9ad254aaae00ce1af.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Götgatan - Tjärhovsgatan<br>
@@ -1037,13 +1035,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_7daba5fa0c062dda21b2bc5fb8d259f3 = L.circleMarker(
+            var circle_marker_2283133b92943e73a211573564f49dc7 = L.circleMarker(
                 [59.34541790584331, 18.07216308408878],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_7daba5fa0c062dda21b2bc5fb8d259f3.bindTooltip(
+            circle_marker_2283133b92943e73a211573564f49dc7.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Valhallavägen 78 - busstorget<br>
@@ -1058,13 +1056,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_f841839612631889a33abfc6a84086e4 = L.circleMarker(
+            var circle_marker_2e10fb772d321e71c8dd3cf1cc34b102 = L.circleMarker(
                 [59.31477399212146, 18.068969182415472],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_f841839612631889a33abfc6a84086e4.bindTooltip(
+            circle_marker_2e10fb772d321e71c8dd3cf1cc34b102.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Bangårdsgången - Fatburstrappan 20<br>
@@ -1079,13 +1077,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_4598fdb30284d47d7ab6564e960d6cdc = L.circleMarker(
+            var circle_marker_3f072a393615e68a7c08eed9c09f7fe9 = L.circleMarker(
                 [59.35288348735498, 18.0480477517416],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_4598fdb30284d47d7ab6564e960d6cdc.bindTooltip(
+            circle_marker_3f072a393615e68a7c08eed9c09f7fe9.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Brunnsviksvägen, Bellevueparken<br>
@@ -1100,13 +1098,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_e47e3e00b883ec785278535647fc8ecc = L.circleMarker(
+            var circle_marker_2828bf7f2b18616373a9655ce764a9a2 = L.circleMarker(
                 [59.33303146095541, 17.98013929074398],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_e47e3e00b883ec785278535647fc8ecc.bindTooltip(
+            circle_marker_2828bf7f2b18616373a9655ce764a9a2.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Gustavlundsvägen 50 - Vidängsplan<br>
@@ -1121,13 +1119,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_5b9e7f36b89194b0b8e2e2525928eacb = L.circleMarker(
+            var circle_marker_c50b35db568cc1fcf4a529767292cdd3 = L.circleMarker(
                 [59.34259337797561, 18.04882661520393],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_5b9e7f36b89194b0b8e2e2525928eacb.bindTooltip(
+            circle_marker_c50b35db568cc1fcf4a529767292cdd3.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Odengatan 77<br>
@@ -1142,13 +1140,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_c7f302654c6774777fb597945a23133c = L.circleMarker(
+            var circle_marker_5b6606c202597e2d9a07a9cd4b49a83f = L.circleMarker(
                 [59.332872391587394, 18.075275983141438],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_c7f302654c6774777fb597945a23133c.bindTooltip(
+            circle_marker_5b6606c202597e2d9a07a9cd4b49a83f.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Hamngatan 2<br>
@@ -1163,13 +1161,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_e0b94535e11d6a2ef05860994a74c09f = L.circleMarker(
+            var circle_marker_1767b7cd7b265515e6a838a0a2f7affb = L.circleMarker(
                 [59.40175590197195, 17.942498228522915],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_e0b94535e11d6a2ef05860994a74c09f.bindTooltip(
+            circle_marker_1767b7cd7b265515e6a838a0a2f7affb.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Kista torg - vid Kista kyrka<br>
@@ -1184,13 +1182,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_5c6c5c910b261477278c36745ecb5a82 = L.circleMarker(
+            var circle_marker_694f2d06a88a79fee4775ad09dee0494 = L.circleMarker(
                 [59.32545520161693, 18.075871138796295],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_5c6c5c910b261477278c36745ecb5a82.bindTooltip(
+            circle_marker_694f2d06a88a79fee4775ad09dee0494.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Skeppsbron<br>
@@ -1205,13 +1203,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_2ec0253a76725d6a516b3d693b984605 = L.circleMarker(
+            var circle_marker_02abaf8de0998b5961e40192e2523fb9 = L.circleMarker(
                 [59.29797086686588, 17.996977377641674],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_2ec0253a76725d6a516b3d693b984605.bindTooltip(
+            circle_marker_02abaf8de0998b5961e40192e2523fb9.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Telefonplan/ Mikrofonvägen<br>
@@ -1226,13 +1224,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_4783e345d0a7b00459d7d27a08fadcbd = L.circleMarker(
+            var circle_marker_3383df46691cebae04cd942e1a08da91 = L.circleMarker(
                 [59.34069652586281, 18.042732292536837],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_4783e345d0a7b00459d7d27a08fadcbd.bindTooltip(
+            circle_marker_3383df46691cebae04cd942e1a08da91.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Odengatan 90 - parken<br>
@@ -1247,13 +1245,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_c36f8180174d2dd61da2b0b6911c20ce = L.circleMarker(
+            var circle_marker_c41ef7e68c8d3d69ad709a15c2887cde = L.circleMarker(
                 [59.32612701291634, 18.07307351872421],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_c36f8180174d2dd61da2b0b6911c20ce.bindTooltip(
+            circle_marker_c41ef7e68c8d3d69ad709a15c2887cde.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Slottsbacken - Österlånggatan<br>
@@ -1268,13 +1266,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_a6d90875c64cf60bc018436c67085774 = L.circleMarker(
+            var circle_marker_84555d44599c7eba879b359e706e770f = L.circleMarker(
                 [59.312668276342, 18.083199236365775],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_a6d90875c64cf60bc018436c67085774.bindTooltip(
+            circle_marker_84555d44599c7eba879b359e706e770f.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Skånegatan 79<br>
@@ -1289,13 +1287,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_962db7a99b7bd57474aad5e17ca566f9 = L.circleMarker(
+            var circle_marker_56e5b5bf090a6195c397038a64b741f4 = L.circleMarker(
                 [59.36695079672271, 17.843198369836156],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_962db7a99b7bd57474aad5e17ca566f9.bindTooltip(
+            circle_marker_56e5b5bf090a6195c397038a64b741f4.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Hässelby torg 3   <br>
@@ -1310,13 +1308,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_4c949770ccc0799c980747eabd757ec6 = L.circleMarker(
+            var circle_marker_98b26d01c2eb72c215baa1765bcc6d48 = L.circleMarker(
                 [59.25629007122238, 18.028214060298815],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_4c949770ccc0799c980747eabd757ec6.bindTooltip(
+            circle_marker_98b26d01c2eb72c215baa1765bcc6d48.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Rågsved(Utanför tågstationen södra del, vid trapporna)<br>
@@ -1331,13 +1329,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_b52c554afdfa123c927ba569ca0453a8 = L.circleMarker(
+            var circle_marker_30549db8b6c0db80a893109ae5768347 = L.circleMarker(
                 [59.325551167155375, 18.071077099198764],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_b52c554afdfa123c927ba569ca0453a8.bindTooltip(
+            circle_marker_30549db8b6c0db80a893109ae5768347.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Källargränd 4<br>
@@ -1352,13 +1350,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_345bbfb8d49244e32a041a5d9d1ece39 = L.circleMarker(
+            var circle_marker_c61558ccdd687e57edd08269bcd179d3 = L.circleMarker(
                 [59.25360191201297, 18.077405762463368],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_345bbfb8d49244e32a041a5d9d1ece39.bindTooltip(
+            circle_marker_c61558ccdd687e57edd08269bcd179d3.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Hökarängen - Ciggarvägen 14 - Parklek<br>
@@ -1373,13 +1371,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_1f22018582ba2cc4038fe910c21461c5 = L.circleMarker(
+            var circle_marker_f3d6d95e2bec39823c7f1f0e0ab0b847 = L.circleMarker(
                 [59.31162299585307, 18.091174813780462],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_1f22018582ba2cc4038fe910c21461c5.bindTooltip(
+            circle_marker_f3d6d95e2bec39823c7f1f0e0ab0b847.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Stora Mejtens Gränd 12<br>
@@ -1394,13 +1392,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_d0983d4ef38221eb0fedc8a2c43ee957 = L.circleMarker(
+            var circle_marker_7fd5c22bff5ab3bceb593a89d8795b79 = L.circleMarker(
                 [59.29669285435856, 17.93152734121291],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_d0983d4ef38221eb0fedc8a2c43ee957.bindTooltip(
+            circle_marker_7fd5c22bff5ab3bceb593a89d8795b79.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Bredäng/ Trissan parklek<br>
@@ -1415,13 +1413,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_15bf7ddace27ba112c6c875b4699bfc3 = L.circleMarker(
+            var circle_marker_743a0615fdf8447b7198a59fef3712ee = L.circleMarker(
                 [59.34792268590878, 18.052149153633398],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_15bf7ddace27ba112c6c875b4699bfc3.bindTooltip(
+            circle_marker_743a0615fdf8447b7198a59fef3712ee.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Vanadislunden - Sveavägen 127<br>
@@ -1436,13 +1434,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_da78b874b54a19141e6250f90644dcbd = L.circleMarker(
+            var circle_marker_7fde1e62c2ec840bb7bf62d42955c2fe = L.circleMarker(
                 [59.32584561716727, 18.021774020027884],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_da78b874b54a19141e6250f90644dcbd.bindTooltip(
+            circle_marker_7fde1e62c2ec840bb7bf62d42955c2fe.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Smedsuddsbadet<br>
@@ -1457,13 +1455,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_b2e1c9d3ef2d40784f2c0c583b0d9c0c = L.circleMarker(
+            var circle_marker_9a11a13d20d9bc2c00e1437d1b67321a = L.circleMarker(
                 [59.342202920642215, 18.056663404790577],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_b2e1c9d3ef2d40784f2c0c583b0d9c0c.bindTooltip(
+            circle_marker_9a11a13d20d9bc2c00e1437d1b67321a.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Observatorielunden/Sveavägen 67A<br>
@@ -1478,13 +1476,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_d8917b3ccdafd7f1d44345b764ac88ef = L.circleMarker(
+            var circle_marker_d798199b7a453f6d2b870fc862eff23b = L.circleMarker(
                 [59.27238803190016, 17.880896172980055],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_d8917b3ccdafd7f1d44345b764ac88ef.bindTooltip(
+            circle_marker_d798199b7a453f6d2b870fc862eff23b.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Vårbergsvägen 65<br>
@@ -1499,13 +1497,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_1bd9a2929ff08e69b9ab2f8587ffe421 = L.circleMarker(
+            var circle_marker_6796ed91b2b54c10e40f6ecfe0d19add = L.circleMarker(
                 [59.299969485448, 18.03035844096702],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_1bd9a2929ff08e69b9ab2f8587ffe421.bindTooltip(
+            circle_marker_6796ed91b2b54c10e40f6ecfe0d19add.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Svärdlångsplan 10<br>
@@ -1520,13 +1518,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_0e0f0fb3ac499d27c1000c72411050df = L.circleMarker(
+            var circle_marker_26f25dd33164d594308c3803f43adf12 = L.circleMarker(
                 [59.34783643965223, 18.03698666153313],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_0e0f0fb3ac499d27c1000c72411050df.bindTooltip(
+            circle_marker_26f25dd33164d594308c3803f43adf12.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Hälsingegatan 51<br>
@@ -1541,13 +1539,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_1bc3351034d11362f69ee82d0e8e975b = L.circleMarker(
+            var circle_marker_5456548ab0bd24bca131979fd0714037 = L.circleMarker(
                 [59.318425530610064, 18.062307923503987],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_1bc3351034d11362f69ee82d0e8e975b.bindTooltip(
+            circle_marker_5456548ab0bd24bca131979fd0714037.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Mariatorget 4<br>
@@ -1562,13 +1560,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_aa5a9c07493cb7bd8789bd3532a1e32c = L.circleMarker(
+            var circle_marker_b0ec2c88ba8f6beaaa03a77283dc04d5 = L.circleMarker(
                 [59.327979837672096, 18.025933707670198],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_aa5a9c07493cb7bd8789bd3532a1e32c.bindTooltip(
+            circle_marker_b0ec2c88ba8f6beaaa03a77283dc04d5.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Rålambshovsparken<br>
@@ -1583,13 +1581,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_5102993198a23da9e82bfba36ce46d05 = L.circleMarker(
+            var circle_marker_06bb62c10153c65d0b02ac58cf09f58f = L.circleMarker(
                 [59.27691256906227, 17.909535664859472],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_5102993198a23da9e82bfba36ce46d05.bindTooltip(
+            circle_marker_06bb62c10153c65d0b02ac58cf09f58f.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Skärholmsplan 6 - busstorget<br>
@@ -1604,13 +1602,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_02aa378673349bec05073f3674515262 = L.circleMarker(
+            var circle_marker_5d41a5d47f1ac4b0601dee905543f9bc = L.circleMarker(
                 [59.33354127690707, 18.00344819912718],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_02aa378673349bec05073f3674515262.bindTooltip(
+            circle_marker_5d41a5d47f1ac4b0601dee905543f9bc.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Kristineberg T-bana - Nordenflychtsvägen 11<br>
@@ -1625,13 +1623,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_f28865bf64c6e3927183be718b30d684 = L.circleMarker(
+            var circle_marker_0cce08cca7171c91b3246013b82edba6 = L.circleMarker(
                 [59.388752374179866, 17.926094499541776],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_f28865bf64c6e3927183be718b30d684.bindTooltip(
+            circle_marker_0cce08cca7171c91b3246013b82edba6.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Rinkebystråket 55   <br>
@@ -1646,13 +1644,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_ab2cf18f6668f2acce5abceb2041ebca = L.circleMarker(
+            var circle_marker_96c866f4607c611a4a3210debdaa0166 = L.circleMarker(
                 [59.29053140537593, 17.96502413524965],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_ab2cf18f6668f2acce5abceb2041ebca.bindTooltip(
+            circle_marker_96c866f4607c611a4a3210debdaa0166.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Västertorpsvägen 70<br>
@@ -1667,13 +1665,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_de9140d9760dbd83d661311b9cdfe98a = L.circleMarker(
+            var circle_marker_692badc62e180d0536704b97bb742d33 = L.circleMarker(
                 [59.24397121207602, 18.09325614849941],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_de9140d9760dbd83d661311b9cdfe98a.bindTooltip(
+            circle_marker_692badc62e180d0536704b97bb742d33.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Kroppaplan<br>
@@ -1688,13 +1686,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_ebf3fd27a0abded3c9d83ff4a50d2412 = L.circleMarker(
+            var circle_marker_cfbde9d80733db91859960e7cdc3097e = L.circleMarker(
                 [59.28595497711497, 17.965223595936322],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_ebf3fd27a0abded3c9d83ff4a50d2412.bindTooltip(
+            circle_marker_cfbde9d80733db91859960e7cdc3097e.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Ellen Keys gata 46<br>
@@ -1709,13 +1707,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_b843ff022904bb04ea66451c579f0fd8 = L.circleMarker(
+            var circle_marker_b433a3fda47d37216531c4d085ee6d74 = L.circleMarker(
                 [59.413179590806905, 17.91136983324378],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_b843ff022904bb04ea66451c579f0fd8.bindTooltip(
+            circle_marker_b433a3fda47d37216531c4d085ee6d74.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Akallastigen 6<br>
@@ -1730,13 +1728,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_63f43f1449d6f8714289ec17c426c327 = L.circleMarker(
+            var circle_marker_8ee7ae9af0f59716ff469b95e331df1d = L.circleMarker(
                 [59.33816718790627, 18.001999825057485],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_63f43f1449d6f8714289ec17c426c327.bindTooltip(
+            circle_marker_8ee7ae9af0f59716ff469b95e331df1d.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Elersvägen 50<br>
@@ -1751,13 +1749,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_a504e3c91da25560265cf1fa7bb99056 = L.circleMarker(
+            var circle_marker_e40ac02bf8ae49a727db2e8884ae6ae5 = L.circleMarker(
                 [59.32273838581769, 18.069096561210507],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_a504e3c91da25560265cf1fa7bb99056.bindTooltip(
+            circle_marker_e40ac02bf8ae49a727db2e8884ae6ae5.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Munkbrogatan - Lijonstedts Gränd<br>
@@ -1772,13 +1770,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_c7533b2af2c181265920337ff05a5dc1 = L.circleMarker(
+            var circle_marker_849e84ddf149abc1e565aab92e2d48c7 = L.circleMarker(
                 [59.28322757688496, 18.070699436497584],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_c7533b2af2c181265920337ff05a5dc1.bindTooltip(
+            circle_marker_849e84ddf149abc1e565aab92e2d48c7.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Sockenplan 370<br>
@@ -1793,13 +1791,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_4d22d6d6a619848e96b159817d03eb12 = L.circleMarker(
+            var circle_marker_3e09f37183d93ec24ea32d0a729a705a = L.circleMarker(
                 [59.28982634117002, 18.070068425932465],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_4d22d6d6a619848e96b159817d03eb12.bindTooltip(
+            circle_marker_3e09f37183d93ec24ea32d0a729a705a.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Palmfeltsvägen 28<br>
@@ -1814,13 +1812,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_cef9667be031ddbc5178477788649770 = L.circleMarker(
+            var circle_marker_4cb140693fa1d911610ecac311d734ba = L.circleMarker(
                 [59.311856410337896, 18.07624005932693],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_cef9667be031ddbc5178477788649770.bindTooltip(
+            circle_marker_4cb140693fa1d911610ecac311d734ba.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Skånegatan 70<br>
@@ -1835,13 +1833,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_4d696f258358cc3ba17cecbaaacc33fb = L.circleMarker(
+            var circle_marker_99963e315eb30b1a215424e2dda8f1cb = L.circleMarker(
                 [59.334622828884626, 18.05455853264143],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_4d696f258358cc3ba17cecbaaacc33fb.bindTooltip(
+            circle_marker_99963e315eb30b1a215424e2dda8f1cb.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Olof Palmes Gata 31 - Norra bantorget<br>
@@ -1856,13 +1854,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_6438107d065d97d45426873712e7a9ff = L.circleMarker(
+            var circle_marker_86269f321cb29b0faaf9eb87d8ead543 = L.circleMarker(
                 [59.31385618649787, 18.080924541635607],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_6438107d065d97d45426873712e7a9ff.bindTooltip(
+            circle_marker_86269f321cb29b0faaf9eb87d8ead543.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Axel Landquist Park - Åsögatan 146<br>
@@ -1877,13 +1875,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_5b939b3e1e63aba5d00882c1c231fe73 = L.circleMarker(
+            var circle_marker_cd0a6b77881449423f44a4677c5b6e1f = L.circleMarker(
                 [59.33031392769974, 18.04114569559499],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_5b939b3e1e63aba5d00882c1c231fe73.bindTooltip(
+            circle_marker_cd0a6b77881449423f44a4677c5b6e1f.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Bergsgatan 44<br>
@@ -1898,13 +1896,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_9700885183c4665aee2407ed4d190cbf = L.circleMarker(
+            var circle_marker_3a7ec4ad4d79a33515427935a812e53e = L.circleMarker(
                 [59.332484846639716, 18.0335891528475],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_9700885183c4665aee2407ed4d190cbf.bindTooltip(
+            circle_marker_3a7ec4ad4d79a33515427935a812e53e.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Kronobergsgatan 11<br>
@@ -1919,13 +1917,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_1fb5634dccfd1b39ad103b2a15cf7e5d = L.circleMarker(
+            var circle_marker_6dbcfdc388247d447963d33c1b006b5e = L.circleMarker(
                 [59.28348296077098, 18.1150054923327],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_1fb5634dccfd1b39ad103b2a15cf7e5d.bindTooltip(
+            circle_marker_6dbcfdc388247d447963d33c1b006b5e.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Kärrtrpsplan 1<br>
@@ -1940,13 +1938,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_4c1eeb618f5bdecd86ebe80f0570c5a4 = L.circleMarker(
+            var circle_marker_72e8d6889538d8d5906f480b247206e7 = L.circleMarker(
                 [59.29521014300679, 17.933597114308284],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_4c1eeb618f5bdecd86ebe80f0570c5a4.bindTooltip(
+            circle_marker_72e8d6889538d8d5906f480b247206e7.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Bredängs Alle under TB<br>
@@ -1961,13 +1959,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_edc23ece5e88db44b752fdfd1e8e5fab = L.circleMarker(
+            var circle_marker_acfee505a9d18da8cc86f0970830252b = L.circleMarker(
                 [59.315060625135764, 18.079199241179662],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_edc23ece5e88db44b752fdfd1e8e5fab.bindTooltip(
+            circle_marker_acfee505a9d18da8cc86f0970830252b.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Folkungagatan 82 - Parkleken Droskan<br>
@@ -1982,13 +1980,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_34d1848e162deb244756629405a49a3e = L.circleMarker(
+            var circle_marker_39c114d6e0e0d058a20fd3fde52be97d = L.circleMarker(
                 [59.35711261778317, 18.103135559685025],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_34d1848e162deb244756629405a49a3e.bindTooltip(
+            circle_marker_39c114d6e0e0d058a20fd3fde52be97d.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Gasverksvägen 52 - vid TB<br>
@@ -2003,13 +2001,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_89d4f156918a688f17295c34a09dfc0f = L.circleMarker(
+            var circle_marker_fb3930290cc2bd33525b87b2612e1dfd = L.circleMarker(
                 [59.3234582229246, 18.073627900262963],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_89d4f156918a688f17295c34a09dfc0f.bindTooltip(
+            circle_marker_fb3930290cc2bd33525b87b2612e1dfd.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Österlånggatan 45<br>
@@ -2024,13 +2022,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_836366ec81061c46582b4e22087ce75f = L.circleMarker(
+            var circle_marker_0f3f7fe63e9ca6f3c2742da86c52aded = L.circleMarker(
                 [59.27010727756327, 18.04957055396015],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_836366ec81061c46582b4e22087ce75f.bindTooltip(
+            circle_marker_0f3f7fe63e9ca6f3c2742da86c52aded.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Trollesundsvägen 16 (under tåg bron)<br>
@@ -2045,13 +2043,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_d57e721a707ef61ba9229e0c073d96d1 = L.circleMarker(
+            var circle_marker_595a7208fceb4fcab193fbfe7281109d = L.circleMarker(
                 [59.31044836458429, 18.021254781687297],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_d57e721a707ef61ba9229e0c073d96d1.bindTooltip(
+            circle_marker_595a7208fceb4fcab193fbfe7281109d.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Liljeholmsgränd 17<br>
@@ -2066,13 +2064,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_8ea1356f08798d42930e97dda2fd9d37 = L.circleMarker(
+            var circle_marker_976b784b6bd8b9f73fcea8a4a621a54f = L.circleMarker(
                 [59.344403218470866, 18.07669445985075],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_8ea1356f08798d42930e97dda2fd9d37.bindTooltip(
+            circle_marker_976b784b6bd8b9f73fcea8a4a621a54f.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Valhallavägen/ Drottning Sofias väg<br>
@@ -2087,13 +2085,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_c8c484e32a760d91b745dd711a3d75a9 = L.circleMarker(
+            var circle_marker_264bbe9a2a81eaef91c825944f79ac12 = L.circleMarker(
                 [59.331019723645575, 18.072532098112067],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_c8c484e32a760d91b745dd711a3d75a9.bindTooltip(
+            circle_marker_264bbe9a2a81eaef91c825944f79ac12.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Kungsträdgårdsgatan mellan 6-8<br>
@@ -2108,13 +2106,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_ab9b9b552d49977abba0bb55ca117cf5 = L.circleMarker(
+            var circle_marker_7fab3f9c9c74156e641da8087c207c61 = L.circleMarker(
                 [59.31644607210921, 18.083609511498405],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_ab9b9b552d49977abba0bb55ca117cf5.bindTooltip(
+            circle_marker_7fab3f9c9c74156e641da8087c207c61.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Tjärhovsplan<br>
@@ -2129,13 +2127,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_73201db2f396ff9f12f2640099c7938b = L.circleMarker(
+            var circle_marker_2f0405d2bf9944bb56dbf9f77c217c0f = L.circleMarker(
                 [59.317678324000134, 18.050694867035823],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_73201db2f396ff9f12f2640099c7938b.bindTooltip(
+            circle_marker_2f0405d2bf9944bb56dbf9f77c217c0f.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Ringvägen 15<br>
@@ -2150,13 +2148,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_72a7dc27c70d7638e8e46a25bb580e37 = L.circleMarker(
+            var circle_marker_e3c1eb9f210d5befbead61f3031360b6 = L.circleMarker(
                 [59.40002101637384, 17.93562108544829],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_72a7dc27c70d7638e8e46a25bb580e37.bindTooltip(
+            circle_marker_e3c1eb9f210d5befbead61f3031360b6.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Jyllandsgatan 16<br>
@@ -2171,13 +2169,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_2d19500a6136c88f2efd3e1fad09ab67 = L.circleMarker(
+            var circle_marker_ca2d8c9e9ff5a887a6790181579b3668 = L.circleMarker(
                 [59.39554485555875, 17.90486139725439],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_2d19500a6136c88f2efd3e1fad09ab67.bindTooltip(
+            circle_marker_ca2d8c9e9ff5a887a6790181579b3668.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Östra Nydalsbron, Nydalsparken<br>
@@ -2192,13 +2190,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_728fe51d0d2f28d80e5856c3ec54c8ce = L.circleMarker(
+            var circle_marker_7d984ac5e1dca231e7ce94f6f43dfc13 = L.circleMarker(
                 [59.294924178093616, 18.102430037330286],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_728fe51d0d2f28d80e5856c3ec54c8ce.bindTooltip(
+            circle_marker_7d984ac5e1dca231e7ce94f6f43dfc13.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Finn Malmgrens Plan 15<br>
@@ -2213,13 +2211,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_7c91ef1949aed4100bb1f8c4f5462fdf = L.circleMarker(
+            var circle_marker_bce05935f5c6c1b502879befbaa5f46a = L.circleMarker(
                 [59.34054325622982, 18.092820073710975],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_7c91ef1949aed4100bb1f8c4f5462fdf.bindTooltip(
+            circle_marker_bce05935f5c6c1b502879befbaa5f46a.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Valhallavägen 157 - Karlaplan TB<br>
@@ -2234,13 +2232,13 @@ Stockholms stads öppna data
             );
         
     
-            var circle_marker_8835444895e9ef3c9b0682a2c59b6bdd = L.circleMarker(
+            var circle_marker_d636f6a85c8f74258a8e3cc830144f5f = L.circleMarker(
                 [59.38280451712317, 17.899383036431814],
                 {"bubblingMouseEvents": true, "color": "#cc5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6600", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
-            ).addTo(feature_group_d4a0d65bfa99432428e40cad85b9c785);
+            ).addTo(feature_group_429b730321380d94b2f0b44bbb0243c4);
         
     
-            circle_marker_8835444895e9ef3c9b0682a2c59b6bdd.bindTooltip(
+            circle_marker_d636f6a85c8f74258a8e3cc830144f5f.bindTooltip(
                 `<div>
                      
             <b>Adress:</b> Spånga stationsplan 9<br>
@@ -2255,13 +2253,13 @@ Stockholms stads öppna data
             );
         
     
-            feature_group_d4a0d65bfa99432428e40cad85b9c785.addTo(map_aee035ff22cdfa540a1bc3294decd944);
+            feature_group_429b730321380d94b2f0b44bbb0243c4.addTo(map_f69659fff7bbe3fc651dd766b1acd161);
         
     
-            tile_layer_71de3f465a5fc3d028b057025c7c1b3b.addTo(map_aee035ff22cdfa540a1bc3294decd944);
+            tile_layer_62fe27f84387a369ff7e08e576cf4c51.addTo(map_f69659fff7bbe3fc651dd766b1acd161);
         
     
-            feature_group_d4a0d65bfa99432428e40cad85b9c785.addTo(map_aee035ff22cdfa540a1bc3294decd944);
+            feature_group_429b730321380d94b2f0b44bbb0243c4.addTo(map_f69659fff7bbe3fc651dd766b1acd161);
         
 </script>
 </html>
