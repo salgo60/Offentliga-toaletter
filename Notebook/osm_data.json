@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.10 2d4cfc48",
   "osm3s": {
-    "timestamp_osm_base": "2026-01-23T23:57:55Z",
-    "timestamp_areas_base": "2026-01-23T01:22:35Z",
+    "timestamp_osm_base": "2026-01-24T09:40:17Z",
+    "timestamp_areas_base": "2026-01-22T23:45:51Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3569,8 +3569,8 @@
       "type": "way",
       "id": 1469874749,
       "center": {
-        "lat": 59.3955279,
-        "lon": 17.9048941
+        "lat": 59.3955268,
+        "lon": 17.9048981
       },
       "nodes": [
         13479780299,
@@ -3585,28 +3585,10 @@
         "building": "yes",
         "check_date": "2026-01-23",
         "disused:amenity": "toilets",
+        "mapillary": "1285038303658452",
         "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
         "operator": "Stockholms stad",
         "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/"
-      }
-    },
-    {
-      "type": "way",
-      "id": 1469897159,
-      "center": {
-        "lat": 59.3955334,
-        "lon": 17.9048903
-      },
-      "nodes": [
-        13480288241,
-        13480288242,
-        13480288243,
-        13480288244,
-        13480288241
-      ],
-      "tags": {
-        "amenity": "toilets",
-        "building": "yes"
       }
     }
   ]
