@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.10 2d4cfc48",
   "osm3s": {
-    "timestamp_osm_base": "2026-01-26T01:56:13Z",
-    "timestamp_areas_base": "2026-01-22T23:45:51Z",
+    "timestamp_osm_base": "2026-01-26T13:37:07Z",
+    "timestamp_areas_base": "2026-01-23T01:22:35Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -876,12 +876,20 @@
     {
       "type": "node",
       "id": 5417312399,
-      "lat": 59.3629862,
-      "lon": 17.9474919,
+      "lat": 59.3630522,
+      "lon": 17.9474538,
       "tags": {
         "amenity": "toilets",
+        "disused:amenity": "toilets",
         "fee": "no",
         "level": "0",
+        "mapillary": "1487696225897844",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "panoramax": "9e41036c-7361-4d7e-911c-e027bd41ca52",
+        "panoramax:0": "8126ce1f-5cf6-4f80-b472-ddcf67dc26bf",
+        "panoramax:1": "aa7aed97-beb6-4bda-ad49-cee0e29a6b1a",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "wheelchair": "yes"
       }
     },
@@ -2240,12 +2248,43 @@
         "access": "yes",
         "amenity": "toilets",
         "fee": "no",
+        "gender_segregated": "no",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Rinkebystr%C3%A5ket_02.jpg",
+        "image:license": "CC0",
         "male": "yes",
+        "mapillary": "1613933406422513",
+        "note": "Urinoar gratis 24/7",
+        "opening_hours": "24/7",
+        "operator": "Stockholms stad",
+        "panoramax": "a1e6a551-e475-4fce-82a5-96846ff111f0",
+        "panoramax:0": "be0775b3-3ba1-44c9-aae1-e103cf14b3bc",
+        "panoramax:1": "1ce3457a-2f0e-4b0b-8e10-9f46714ed2ce",
+        "panoramax:2": "72213d1e-3103-45ce-a384-c85c6650afe3",
+        "toilets:disposal": "flush",
+        "toilets:position": "urinal",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13495584857,
+      "lat": 59.3887462,
+      "lon": 17.9261267,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "charge": "5 SEK",
+        "fee": "yes",
         "mapillary": "1613933406422513",
         "opening_hours": "24/7",
         "operator": "Stockholms stad",
-        "toilets:disposal": "flush",
-        "wheelchair": "no"
+        "panoramax": "a1e6a551-e475-4fce-82a5-96846ff111f0",
+        "panoramax:0": "be0775b3-3ba1-44c9-aae1-e103cf14b3bc",
+        "panoramax:1": "1ce3457a-2f0e-4b0b-8e10-9f46714ed2ce",
+        "panoramax:2": "72213d1e-3103-45ce-a384-c85c6650afe3",
+        "payment:cash": "yes",
+        "toilets:position": "seated",
+        "unisex": "yes"
       }
     },
     {
@@ -3682,39 +3721,6 @@
     },
     {
       "type": "way",
-      "id": 1470416645,
-      "center": {
-        "lat": 59.388757,
-        "lon": 17.9261181
-      },
-      "nodes": [
-        13485092290,
-        13485092291,
-        13485092292,
-        13485092293,
-        13485092294,
-        13485092290
-      ],
-      "tags": {
-        "access": "yes",
-        "amenity": "toilets",
-        "charge": "5 Skr",
-        "check_date": "2026-01-25",
-        "fee": "yes",
-        "mapillary": "1613933406422513",
-        "opening_hours": "24/7",
-        "operator": "Stockholms stad",
-        "payment:cash": "yes",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "toilets:num_chambers": "1",
-        "toilets:paper_supplied": "yes",
-        "toilets:position": "seated",
-        "unisex": "yes"
-      }
-    },
-    {
-      "type": "way",
       "id": 1470417048,
       "center": {
         "lat": 59.3827971,
@@ -3733,9 +3739,15 @@
         "building": "yes",
         "check_date": "2026-01-25",
         "disused:amenity": "toilets",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toaletter_Sp%C3%A5nga_Station_05.jpg",
+        "image:license": "CC0",
         "mapillary": "1837319643582635",
         "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
         "operator": "Stockholms stad",
+        "panoramax": "acc5efab-d6aa-41d4-b2dc-900818f8b3df",
+        "panoramax:0": "6a010f7a-8afc-45b6-a02a-d7a03841d6ec",
+        "panoramax:1": "494ca6a4-c321-4ef0-abe7-884dc0fb6166",
+        "panoramax:2": "119185d1-96d1-45f3-9f47-51e376da8e2e",
         "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "toilets:disposal": "flush",
         "unisex": "yes"
