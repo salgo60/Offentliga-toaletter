@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.10 2d4cfc48",
   "osm3s": {
-    "timestamp_osm_base": "2026-01-26T13:37:07Z",
+    "timestamp_osm_base": "2026-01-27T01:09:06Z",
     "timestamp_areas_base": "2026-01-23T01:22:35Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -2275,6 +2275,8 @@
         "amenity": "toilets",
         "charge": "5 SEK",
         "fee": "yes",
+        "image": "https://commons.wikimedia.org/wiki/Category:Public_toilets_in_Stockholm#/media/File:Stockholms_stads_offentliga_toalett_Rinkebystr%C3%A5ket_03.jpg",
+        "image:license": "CC0",
         "mapillary": "1613933406422513",
         "opening_hours": "24/7",
         "operator": "Stockholms stad",
@@ -3590,11 +3592,15 @@
         "charge": "5 Skr",
         "check_date": "2026-01-24",
         "fee": "yes",
-        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Akalla_g%C3%A5rd_01.jpg",
         "image:license": "CC0",
         "mapillary": "725324120420672",
         "opening_hours": "24/7",
         "panoramax": "af09d540-d4a9-487c-8ffc-726fc228211f",
+        "panoramax:0": "acf70f19-8735-4202-8438-93b529b1fc14",
+        "panoramax:1": "2812c0d1-10a1-4b15-957e-be6c074a93ad",
+        "panoramax:2": "50498aa2-0fd9-4a92-b115-35f576a721c3",
+        "panoramax:3": "2886a29a-2987-4d70-915f-97c44b14f421",
+        "panoramax:4": "cdf7ea01-5295-4018-82c0-8afb054b9636",
         "payment:cash": "no",
         "payment:credit_cards": "yes",
         "toilets:disposal": "flush",
@@ -3603,7 +3609,7 @@
         "toilets:paper_supplied": "yes",
         "toilets:position": "seated",
         "wheelchair": "yes",
-        "wikimedia_commons": "Category:Public_toilets_in_Stockholm"
+        "wikimedia_commons": "File:Stockholms_stads_offentliga_toalett_Akalla_gård_01.jpg"
       }
     },
     {
@@ -3645,15 +3651,19 @@
         13479780299
       ],
       "tags": {
-        "access": "no",
-        "addr:street": "Jyllandsgatan 16",
-        "amenity": "toilets",
         "building": "yes",
-        "check_date": "2026-01-22",
+        "check_date": "2026-01-26",
         "disused:amenity": "toilets",
+        "expected_opening": "2026",
         "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
         "operator": "Stockholms stad",
-        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/"
+        "operator:type": "public",
+        "panoramax": "e705de59-0012-40a2-814d-203b506f00aa",
+        "panoramax:0": "de1381bd-5d0b-4668-b1c3-66e6376a9106",
+        "panoramax:1": "52d62305-89e5-45c9-b41b-c51f16f7f7ab",
+        "panoramax:2": "887b429e-d9eb-4a6a-a510-5f6dfe1d0cfc",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wikimedia_commons": "File:Stockholms_stads_offentliga_toalett_Nydalsparken_04.jpg"
       }
     },
     {
@@ -3706,13 +3716,11 @@
         13483397023
       ],
       "tags": {
-        "access": "no",
         "addr:street": "Jyllandsgatan 16",
-        "amenity": "toilets",
         "building": "yes",
         "check_date": "2026-01-22",
         "disused:amenity": "toilets",
-        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Jyllandsgatan_16_Kista_06.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Stockholms_stads_offentliga_toalett_Jyllandsgatan_16_Kista_06.jpg",
         "image:license": "CC0",
         "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
         "operator": "Stockholms stad",
