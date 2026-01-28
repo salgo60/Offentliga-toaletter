@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.10 2d4cfc48",
   "osm3s": {
-    "timestamp_osm_base": "2026-01-28T13:58:18Z",
+    "timestamp_osm_base": "2026-01-28T14:34:00Z",
     "timestamp_areas_base": "2026-01-23T01:22:35Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -2459,6 +2459,38 @@
         "image:licens": "CC0",
         "male": "yes",
         "mapillary": "173355591235014",
+        "toilets:disposal": "flush",
+        "toilets:position": "urinal",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13506779179,
+      "lat": 59.3399528,
+      "lon": 18.0785337,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "male": "yes",
+        "mapillary": "311051917200836",
+        "name": "Toalett Karlavägen 40",
+        "toilets:disposal": "flush",
+        "toilets:position": "urinal",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13506812578,
+      "lat": 59.3150693,
+      "lon": 18.0792175,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "male": "yes",
+        "mapillary": "236933561561049",
         "toilets:disposal": "flush",
         "toilets:position": "urinal",
         "wheelchair": "no"
