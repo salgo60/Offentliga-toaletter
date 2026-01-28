@@ -1,0 +1,5081 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-01-28T13:38:47Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29835248",
+        "changing_table": "yes",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Tegnerlunden_2026_jan_01.jpg",
+        "image:license": "CC0",
+        "mapillary": "3720571278251388",
+        "name": "Toialett Tegnerlunden",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0553167,
+          59.3385713
+        ]
+      },
+      "id": "node/29835248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29898114",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0844595,
+          59.3265472
+        ]
+      },
+      "id": "node/29898114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117573214",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1008204,
+          59.2769299
+        ]
+      },
+      "id": "way/117573214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124973325",
+        "amenity": "toilets",
+        "building": "toilets",
+        "fee": "no",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.021344,
+          59.3256748
+        ]
+      },
+      "id": "way/124973325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125085090",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "supervised": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9265032,
+          59.2999258
+        ]
+      },
+      "id": "way/125085090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126084738",
+        "amenity": "toilets",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8934717,
+          59.2867894
+        ]
+      },
+      "id": "way/126084738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/127586369",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "changing_table": "no",
+        "check_date": "2026-01-27",
+        "fee": "no",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Kronobergsparken_01.jpg",
+        "image:license": "CC0",
+        "level": "0",
+        "male": "yes",
+        "namn": "Urinoar Kronobergsgatan 11",
+        "opening_hours": "24/7",
+        "operator": "Stockholms stad",
+        "panoramax": "d2287397-8139-4d10-9610-87fa2ce31f05",
+        "panoramax:0": "624b29f0-3038-4545-9916-9ae5cd3cf173",
+        "supervised": "no",
+        "toilets:access": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "no",
+        "toilets:num_chambers": "1",
+        "toilets:position": "urinal",
+        "wheelchair": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0336794,
+          59.3325628
+        ]
+      },
+      "id": "way/127586369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/139407909",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "yes",
+        "opening_hours": "Mo-Su 11:00-17:00",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1141505,
+          59.3221565
+        ]
+      },
+      "id": "way/139407909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/141416395",
+        "amenity": "toilets",
+        "building": "yes",
+        "changing_table": "yes",
+        "fee": "no",
+        "source": "bing",
+        "wheelchair": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1021664,
+          59.3265095
+        ]
+      },
+      "id": "way/141416395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/193906913",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "fee": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1031275,
+          59.357109
+        ]
+      },
+      "id": "node/193906913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/196339041",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "name": "Väntrum & toalett",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1027006,
+          59.2737283
+        ]
+      },
+      "id": "way/196339041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/310373529",
+        "access": "customers",
+        "amenity": "toilets",
+        "building": "yes",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9600832,
+          59.3075079
+        ]
+      },
+      "id": "way/310373529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/369976531",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "yes",
+        "fee:price": "5 kr, pissoir free",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0753561,
+          59.3328362
+        ]
+      },
+      "id": "node/369976531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/372691861",
+        "changing_table": "no",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0721733,
+          59.3454123
+        ]
+      },
+      "id": "node/372691861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/410531301",
+        "amenity": "toilets",
+        "check_date": "2025-08-23",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "opening_hours": "24/7",
+        "operator": "Stockholms stad",
+        "source": "survey",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0736794,
+          59.3374418
+        ]
+      },
+      "id": "node/410531301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/429821933",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8839878,
+          59.3474559
+        ]
+      },
+      "id": "way/429821933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/443690836",
+        "amenity": "toilets",
+        "check_date": "2023-09-02",
+        "fee": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8171208,
+          59.3798917
+        ]
+      },
+      "id": "node/443690836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/445303563",
+        "amenity": "toilets",
+        "check_date": "2025-08-08",
+        "check_date:wheelchair": "2025-08-08",
+        "fee": "yes",
+        "source": "survey",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0925901,
+          59.3304623
+        ]
+      },
+      "id": "node/445303563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/445807905",
+        "amenity": "toilets",
+        "capacity": "5",
+        "capacity:disabled": "1",
+        "note": "Customers only",
+        "operator": "Coop",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8589297,
+          59.3695989
+        ]
+      },
+      "id": "node/445807905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/446029218",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "fee": "no",
+        "level": "0",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9436104,
+          59.4024318
+        ]
+      },
+      "id": "node/446029218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/459815440",
+        "access": "customers",
+        "amenity": "toilets",
+        "check_date": "2023-09-04",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1086203,
+          59.3277084
+        ]
+      },
+      "id": "node/459815440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/468729960",
+        "access": "permissive",
+        "amenity": "toilets",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9697643,
+          59.2941955
+        ]
+      },
+      "id": "way/468729960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/477625927",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0028746,
+          59.3300213
+        ]
+      },
+      "id": "node/477625927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/506545966",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1468022,
+          59.3230547
+        ]
+      },
+      "id": "way/506545966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/524772827",
+        "access": "yes",
+        "building": "yes",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Alviks torg",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9801396,
+          59.3330191
+        ]
+      },
+      "id": "way/524772827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530012600",
+        "amenity": "toilets",
+        "building": "yes",
+        "changing_table": "yes",
+        "fee": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0958092,
+          59.3245876
+        ]
+      },
+      "id": "way/530012600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/617586351",
+        "access": "customers",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "operator": "Langholmens Husbilcamoping",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0324437,
+          59.3203908
+        ]
+      },
+      "id": "way/617586351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/617586353",
+        "access": "customers",
+        "amenity": "toilets",
+        "building": "yes",
+        "operator": "Langholems Husbilcamping",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.032793,
+          59.320398
+        ]
+      },
+      "id": "way/617586353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/640304865",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "check_date": "2025-08-14",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "namn": "Toalett Mariatorget",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0623335,
+          59.3184435
+        ]
+      },
+      "id": "node/640304865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/666327988",
+        "amenity": "toilets",
+        "building": "yes",
+        "building:colour": "red",
+        "building:levels": "1",
+        "height": "2",
+        "roof:height": "0",
+        "wikidata": "Q60721297",
+        "wikimedia_commons": "Category:Uthuset, Statarlängan, Skansen",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1058772,
+          59.3250442
+        ]
+      },
+      "id": "way/666327988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/672253208",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0433731,
+          59.3690698
+        ]
+      },
+      "id": "way/672253208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/681658274",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "yes",
+        "toilets:disposal": "flush",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0062001,
+          59.3017587
+        ]
+      },
+      "id": "way/681658274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/724407721",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.786176,
+          59.3918994
+        ]
+      },
+      "id": "node/724407721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/730129060",
+        "building": "yes",
+        "changing_table": "yes",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_Bellevueparken_2026_jan_02.jpg",
+        "image:license": "CC0",
+        "mapillary": "874179105409018",
+        "name": "Toalett Rålambshovspark",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "unisex": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0480535,
+          59.3528953
+        ]
+      },
+      "id": "way/730129060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/750264955",
+        "access": "yes",
+        "building": "shed",
+        "changing_table": "yes",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
+        "fee": "yes",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_Observatorielunden_Sveav%C3%A4gen_2026_jan_02.jpg",
+        "image:license": "CC0",
+        "mapillary": "929441916079008",
+        "name": "Toalett Observatorielunden/Sveavägen",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0567025,
+          59.3422324
+        ]
+      },
+      "id": "way/750264955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/766792010",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_Odengatan_90_2026_Jan_01.jpg",
+        "image:license": "CC0",
+        "mapillary": "2337658970048277",
+        "name": "Toalett Odengatan 90",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0427379,
+          59.3406906
+        ]
+      },
+      "id": "node/766792010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/808189284",
+        "amenity": "toilets",
+        "building": "yes",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Fagerliden",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0772925,
+          59.253581
+        ]
+      },
+      "id": "way/808189284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/811198689",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "unisex": "yes",
+        "wheelchair": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.961624,
+          59.3073781
+        ]
+      },
+      "id": "way/811198689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/822568807",
+        "building": "yes",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Eriksdalsbadet",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0710762,
+          59.3042226
+        ]
+      },
+      "id": "way/822568807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/825794982",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "toilets:disposal": "chemical",
+        "toilets:handwashing:hand_disinfection": "yes",
+        "unisex": "yes",
+        "wheelchair": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0685774,
+          59.3726365
+        ]
+      },
+      "id": "way/825794982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/870347319",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "check_date": "2024-05-24",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:hands_drying": "electric_hand_dryer",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0381509,
+          59.3127281
+        ]
+      },
+      "id": "way/870347319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/872588195",
+        "amenity": "toilets",
+        "check_date": "2022-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9648209,
+          59.285517
+        ]
+      },
+      "id": "node/872588195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/970988546",
+        "building": "toilets",
+        "building:levels": "1",
+        "check_date": "2020-08-08",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "female": "yes",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "male": "yes",
+        "name": "Toalett Långholmsbadet",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:position": "seated;urinal",
+        "unisex": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0250792,
+          59.3217693
+        ]
+      },
+      "id": "way/970988546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/978650033",
+        "amenity": "toilets",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8970534,
+          59.3371345
+        ]
+      },
+      "id": "way/978650033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/979816263",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0199944,
+          59.2593037
+        ]
+      },
+      "id": "way/979816263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/984902214",
+        "building": "yes",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Stora Mejtens Gränd",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0912046,
+          59.3116135
+        ]
+      },
+      "id": "way/984902214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1027045701",
+        "access": "yes",
+        "building": "yes",
+        "check_date": "2024-05-26",
+        "disused:amenity": "toilets",
+        "fee": "yes",
+        "image": "https://commons.wikimedia.org/wiki/Category:Public_toilets_in_Stockholm#/media/File:Stockholms_stads_offentlig_toalett_Ragnar_%C3%96sterbergsplan_2026_jan_04.jpg",
+        "image:license": "CC0",
+        "level": "0",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "opening_hours": "24/7",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "supervised": "no",
+        "toilets:disposal": "flush",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0524919,
+          59.3268902
+        ]
+      },
+      "id": "way/1027045701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1029046638",
+        "building": "yes",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "layer": "1",
+        "name": "Toalett Hjorthagen/Artemistrappan",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0978461,
+          59.3548906
+        ]
+      },
+      "id": "way/1029046638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1051596459",
+        "building": "yes",
+        "changing_table": "yes",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Norra_Bantorget_2026_jan_02.jpg",
+        "image:license": "CC0",
+        "mapillary": "885172600984670",
+        "name": "Toalett Norra Bantorget",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0553192,
+          59.3349623
+        ]
+      },
+      "id": "way/1051596459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1068141312",
+        "amenity": "toilets",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0713001,
+          59.3644976
+        ]
+      },
+      "id": "way/1068141312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1113183440",
+        "building": "yes",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_R%C3%A5lambshovparken_2026_jan_06.jpg",
+        "image:license": "CC0",
+        "name": "Toalett Rålambshovspark",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:num_chambers": "4",
+        "toilets:paper_supplied": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0260127,
+          59.3280017
+        ]
+      },
+      "id": "way/1113183440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1118901452",
+        "check_date": "2022-06-04",
+        "disused:amenity": "toilets",
+        "fee": "yes",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Tessinparken Valhallavägen",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0927691,
+          59.3405711
+        ]
+      },
+      "id": "node/1118901452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1161056574",
+        "amenity": "toilets",
+        "building": "toilets",
+        "building:colour": "green",
+        "changing_table": "yes",
+        "check_date": "2024-05-26",
+        "fee": "no",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0034399,
+          59.3334682
+        ]
+      },
+      "id": "way/1161056574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1174535358",
+        "building": "toilets",
+        "building:levels": "1",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_Sankt_Eriksplan_2026_jan_01.jpg",
+        "image:license": "CC0",
+        "mapillary": "2693343951050639",
+        "name": "Toalett Sankt Eriksplan",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0374134,
+          59.3396968
+        ]
+      },
+      "id": "way/1174535358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1188355348",
+        "amenity": "toilets",
+        "building": "yes",
+        "building:levels": "1",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0381008,
+          59.2898104
+        ]
+      },
+      "id": "way/1188355348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1209267370",
+        "amenity": "toilets",
+        "check_date": "2022-04-15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0806817,
+          59.2990223
+        ]
+      },
+      "id": "node/1209267370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1256882568",
+        "amenity": "toilets",
+        "fee": "no",
+        "indoor": "room",
+        "level": "1",
+        "level:ref": "2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0655017,
+          59.3537006
+        ]
+      },
+      "id": "way/1256882568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1256882572",
+        "amenity": "toilets",
+        "fee": "no",
+        "indoor": "room",
+        "level": "1",
+        "level:ref": "2",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0652808,
+          59.3537257
+        ]
+      },
+      "id": "way/1256882572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1256882574",
+        "amenity": "toilets",
+        "fee": "no",
+        "indoor": "room",
+        "level": "1",
+        "level:ref": "2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0654244,
+          59.3535385
+        ]
+      },
+      "id": "way/1256882574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1256882577",
+        "amenity": "toilets",
+        "fee": "no",
+        "indoor": "room",
+        "level": "1",
+        "level:ref": "2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0653879,
+          59.353367
+        ]
+      },
+      "id": "way/1256882577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1256882578",
+        "amenity": "toilets",
+        "fee": "no",
+        "indoor": "room",
+        "level": "1",
+        "level:ref": "2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0653657,
+          59.3533689
+        ]
+      },
+      "id": "way/1256882578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1256882579",
+        "amenity": "toilets",
+        "fee": "no",
+        "indoor": "room",
+        "level": "1",
+        "level:ref": "2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0653429,
+          59.3533707
+        ]
+      },
+      "id": "way/1256882579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1259515160",
+        "access": "yes",
+        "check_date": "2024-08-15",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Wollmar Yxkullsgatan 36",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0565235,
+          59.3160928
+        ]
+      },
+      "id": "node/1259515160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1281787778",
+        "amenity": "toilets",
+        "fee": "yes",
+        "name": "Ica Kvantum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1132343,
+          59.3472659
+        ]
+      },
+      "id": "node/1281787778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1289469921",
+        "amenity": "toilets",
+        "fee": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0691008,
+          59.3227363
+        ]
+      },
+      "id": "node/1289469921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1293232556",
+        "building": "toilets",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Hornsbergs strand",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0049056,
+          59.3399616
+        ]
+      },
+      "id": "way/1293232556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1299713131",
+        "access": "yes",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Vanadislunden_2026_jan_03.jpg",
+        "image:license": "CC0",
+        "mapillary": "1413229956926712",
+        "name": "Toalett Vanadislunden",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0521754,
+          59.3478759
+        ]
+      },
+      "id": "way/1299713131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1300101878",
+        "amenity": "toilets",
+        "fee": "yes",
+        "indoor": "room",
+        "level": "-1",
+        "room": "toilet",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0627637,
+          59.3343858
+        ]
+      },
+      "id": "way/1300101878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1300101880",
+        "amenity": "toilets",
+        "fee": "yes",
+        "indoor": "room",
+        "level": "-1",
+        "room": "toilet",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0628342,
+          59.3343386
+        ]
+      },
+      "id": "way/1300101880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1314795619",
+        "amenity": "toilets",
+        "building": "yes",
+        "mapillary": "1238696544225660",
+        "portable": "yes",
+        "seasonal": "yes",
+        "toilets": "unisex",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9129857,
+          59.4119463
+        ]
+      },
+      "id": "way/1314795619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1314795620",
+        "access": "public",
+        "amenity": "toilets",
+        "mapillary": "443331782189894",
+        "portable": "yes",
+        "seasonal": "yes",
+        "toilets": "unisex",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9129581,
+          59.4119393
+        ]
+      },
+      "id": "way/1314795620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1324187530",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1037297,
+          59.271042
+        ]
+      },
+      "id": "node/1324187530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1349576832",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0692242,
+          59.3270502
+        ]
+      },
+      "id": "node/1349576832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1364657032",
+        "access": "yes",
+        "changing_table": "yes",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalettt_Drottninggatan_2026_jan_02.jpg",
+        "image:license": "CC0",
+        "mapillary": "758823996775230",
+        "name": "Toalett Drottningatan",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0610549,
+          59.337913
+        ]
+      },
+      "id": "node/1364657032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1384929016",
+        "addr:floor": "0",
+        "addr:housenumber": "33",
+        "addr:street": "Tjärhovsplan",
+        "changing_table": "yes",
+        "check_date": "2024-05-25",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "level": "0",
+        "name": "Toalett Tjärhovsplan",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0836541,
+          59.3164495
+        ]
+      },
+      "id": "node/1384929016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1389941075",
+        "access": "permissive",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "changing_table:location": "wheelchair_toilet",
+        "check_date": "2023-03-21",
+        "fee": "no",
+        "level": "1",
+        "operator": "Wasahamnen",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0950614,
+          59.3265372
+        ]
+      },
+      "id": "node/1389941075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1409423170",
+        "access": "yes",
+        "building": "toilets",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
+        "fee": "yes",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Jyllandsgatan_16_Kista_06.jpg",
+        "level": "0",
+        "note": "Toaletten är stängd och kommer att tas bort",
+        "owner": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "supervised": "no",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0280295,
+          59.3316929
+        ]
+      },
+      "id": "way/1409423170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1415635429",
+        "access": "yes",
+        "amenity": "toilets",
+        "charge": "5 SEK",
+        "check_date": "2026-01-24",
+        "description": "Paid: 5 SEK with ORC kod",
+        "fee": "yes",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Husby_g%C3%A5rd_08.jpg",
+        "image:license": "CC0",
+        "mapillary": "886390654010210",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:num_chambers": "2",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated",
+        "wheelchair": "yes",
+        "wikimedia_commons": "Category:Public_toilets_in_Stockholm",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9186858,
+          59.4072252
+        ]
+      },
+      "id": "way/1415635429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1416774606",
+        "access": "customers",
+        "amenity": "toilets",
+        "indoor": "room",
+        "level": "0",
+        "room": "toilet",
+        "toilets:disposal": "flush",
+        "toilets:menstrual_products": "yes",
+        "unisex": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0679408,
+          59.3503957
+        ]
+      },
+      "id": "way/1416774606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1416774616",
+        "access": "customers",
+        "amenity": "toilets",
+        "indoor": "room",
+        "level": "-1",
+        "room": "toilet",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0675281,
+          59.350584
+        ]
+      },
+      "id": "way/1416774616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1416774617",
+        "access": "customers",
+        "amenity": "toilets",
+        "indoor": "room",
+        "level": "-1",
+        "room": "toilet",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0674893,
+          59.3505893
+        ]
+      },
+      "id": "way/1416774617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1424620792",
+        "amenity": "toilets",
+        "check_date": "2022-06-06",
+        "fee": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0878097,
+          59.3241921
+        ]
+      },
+      "id": "node/1424620792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1424620907",
+        "amenity": "toilets",
+        "check_date": "2022-06-06",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0843116,
+          59.3271546
+        ]
+      },
+      "id": "node/1424620907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1425550045",
+        "amenity": "toilets",
+        "fee": "yes",
+        "toilets:access": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0811277,
+          59.3266026
+        ]
+      },
+      "id": "node/1425550045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1427716359",
+        "access": "yes",
+        "amenity": "toilets",
+        "charge": "5 Skr",
+        "check_date": "2026-01-24",
+        "fee": "yes",
+        "image:license": "CC0",
+        "mapillary": "725324120420672",
+        "opening_hours": "24/7",
+        "panoramax": "af09d540-d4a9-487c-8ffc-726fc228211f",
+        "panoramax:0": "acf70f19-8735-4202-8438-93b529b1fc14",
+        "panoramax:1": "2812c0d1-10a1-4b15-957e-be6c074a93ad",
+        "panoramax:2": "50498aa2-0fd9-4a92-b115-35f576a721c3",
+        "panoramax:3": "2886a29a-2987-4d70-915f-97c44b14f421",
+        "panoramax:4": "cdf7ea01-5295-4018-82c0-8afb054b9636",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:num_chambers": "1",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated",
+        "wheelchair": "yes",
+        "wikimedia_commons": "File:Stockholms_stads_offentliga_toalett_Akalla_gård_01.jpg",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9115085,
+          59.4131655
+        ]
+      },
+      "id": "way/1427716359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1432064709",
+        "amenity": "toilets",
+        "check_date": "2024-07-17",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9017216,
+          59.3368456
+        ]
+      },
+      "id": "node/1432064709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1463157733",
+        "access": "yes",
+        "building": "yes",
+        "changing_table": "yes",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_Norra_Stationsparken_2026_jan_01.jpg",
+        "image:license": "CC0",
+        "mapillary": "25744336971841883",
+        "name": "Toalett Norra Stationsparken",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0369866,
+          59.3478225
+        ]
+      },
+      "id": "way/1463157733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1469874749",
+        "building": "yes",
+        "check_date": "2026-01-26",
+        "disused:amenity": "toilets",
+        "expected_opening": "2026",
+        "namn": "Toalett Tensta Nydalsparken",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "operator:type": "public",
+        "panoramax": "e705de59-0012-40a2-814d-203b506f00aa",
+        "panoramax:0": "de1381bd-5d0b-4668-b1c3-66e6376a9106",
+        "panoramax:1": "52d62305-89e5-45c9-b41b-c51f16f7f7ab",
+        "panoramax:2": "887b429e-d9eb-4a6a-a510-5f6dfe1d0cfc",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wikimedia_commons": "File:Stockholms_stads_offentliga_toalett_Nydalsparken_04.jpg",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9048981,
+          59.3955268
+        ]
+      },
+      "id": "way/1469874749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1470142807",
+        "access": "yes",
+        "amenity": "toilets",
+        "charge": "5 Skr",
+        "check_date": "2026-01-24",
+        "description": "Paid: 5 SEK",
+        "fee": "yes",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Kista_torg_01.jpg",
+        "mapillary": "886390654010210",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:num_chambers": "2",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated",
+        "unisex": "yes",
+        "wheelchair": "yes",
+        "wikimedia_commons": "Category:Public_toilets_in_Stockholm",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9425,
+          59.4017563
+        ]
+      },
+      "id": "way/1470142807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1470202519",
+        "addr:street": "Jyllandsgatan 16",
+        "building": "yes",
+        "check_date": "2026-01-22",
+        "disused:amenity": "toilets",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Stockholms_stads_offentliga_toalett_Jyllandsgatan_16_Kista_06.jpg",
+        "image:license": "CC0",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9356265,
+          59.4000603
+        ]
+      },
+      "id": "way/1470202519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1470417048",
+        "access": "no",
+        "amenity": "toilets",
+        "building": "yes",
+        "check_date": "2026-01-25",
+        "disused:amenity": "toilets",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toaletter_Sp%C3%A5nga_Station_05.jpg",
+        "image:license": "CC0",
+        "mapillary": "1837319643582635",
+        "name": "Toalett Spånga stationsplan",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "panoramax": "acc5efab-d6aa-41d4-b2dc-900818f8b3df",
+        "panoramax:0": "6a010f7a-8afc-45b6-a02a-d7a03841d6ec",
+        "panoramax:1": "494ca6a4-c321-4ef0-abe7-884dc0fb6166",
+        "panoramax:2": "119185d1-96d1-45f3-9f47-51e376da8e2e",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8994049,
+          59.3827971
+        ]
+      },
+      "id": "way/1470417048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1471823640",
+        "building": "yes",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Lyckselevägen 58 Grötfatet",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:num_chambers": "4",
+        "toilets:paper_supplied": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.869289,
+          59.3671778
+        ]
+      },
+      "id": "way/1471823640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1471886052",
+        "area": "yes",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Tessinparken - De Geersgatan",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0960098,
+          59.3432243
+        ]
+      },
+      "id": "way/1471886052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1471889088",
+        "addr:street": "Jyllandsgatan 16",
+        "building": "yes",
+        "check_date": "2026-01-22",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Årsta/Berg",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0303689,
+          59.2999531
+        ]
+      },
+      "id": "way/1471889088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1471891341",
+        "building": "yes",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Västerholmsparken",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8988262,
+          59.2715314
+        ]
+      },
+      "id": "way/1471891341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1477922576",
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.046575,
+          59.369272
+        ]
+      },
+      "id": "node/1477922576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1509877941",
+        "amenity": "toilets",
+        "fee": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0832016,
+          59.3126655
+        ]
+      },
+      "id": "node/1509877941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1546340693",
+        "amenity": "toilets",
+        "check_date": "2024-07-08",
+        "fee": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0727334,
+          59.3149548
+        ]
+      },
+      "id": "node/1546340693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1605069859",
+        "amenity": "toilets",
+        "check_date": "2021-12-17",
+        "fee": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0728861,
+          59.3470281
+        ]
+      },
+      "id": "node/1605069859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1716951634",
+        "amenity": "toilets",
+        "check_date": "2023-09-16",
+        "fee": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0823327,
+          59.3392269
+        ]
+      },
+      "id": "node/1716951634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1748454774",
+        "building": "yes",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_R%C3%A5lambshovparken_2026_jan_06.jpg",
+        "image:license": "CC0",
+        "mapillary": "1209681497898258",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.054234,
+          59.3408557
+        ]
+      },
+      "id": "node/1748454774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1760216286",
+        "amenity": "toilets",
+        "check_date": "2024-07-28",
+        "female": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0870863,
+          59.2982408
+        ]
+      },
+      "id": "node/1760216286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1769871680",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2020-01-27",
+        "fee": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1014111,
+          59.3240272
+        ]
+      },
+      "id": "node/1769871680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1787546916",
+        "amenity": "toilets",
+        "charge": "5 SEK",
+        "fee": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0736621,
+          59.3235136
+        ]
+      },
+      "id": "node/1787546916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1787546986",
+        "access": "yes",
+        "amenity": "toilets",
+        "charge": "5 SEK",
+        "check_date": "2025-06-27",
+        "fee": "yes",
+        "payment:credit_cards": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0730553,
+          59.3261229
+        ]
+      },
+      "id": "node/1787546986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1832102620",
+        "amenity": "toilets",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0544,
+          59.3601402
+        ]
+      },
+      "id": "node/1832102620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2171149284",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "female": "yes",
+        "level": "0",
+        "male": "yes",
+        "source": "survey",
+        "toilets:disposal": "flush",
+        "toilets:hands_drying": "electric_hand_dryer",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9465906,
+          59.40289
+        ]
+      },
+      "id": "node/2171149284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2189008509",
+        "amenity": "toilets",
+        "check_date": "2024-04-07",
+        "fee": "yes",
+        "note": "Pissoar gratis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9095426,
+          59.2769001
+        ]
+      },
+      "id": "node/2189008509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2346958852",
+        "amenity": "toilets",
+        "check_date:opening_hours": "2024-07-19",
+        "fee": "no",
+        "level": "0",
+        "opening_hours": "Mo-Su 08:00-17:30",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0548932,
+          59.3273358
+        ]
+      },
+      "id": "node/2346958852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2396254046",
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0812461,
+          59.2977354
+        ]
+      },
+      "id": "node/2396254046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2396254047",
+        "amenity": "toilets",
+        "check_date": "2023-11-26",
+        "fee": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0788342,
+          59.2943285
+        ]
+      },
+      "id": "node/2396254047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2415157851",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "fee": "yes",
+        "payment:cash": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1324557,
+          59.33096
+        ]
+      },
+      "id": "node/2415157851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2494165898",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "check_date": "2025-01-17",
+        "fee": "yes",
+        "gender_segregated": "no",
+        "level": "-1",
+        "opening_hours": "Mo-Fr 05:00-01:15; Sa,Su 05:00-02:15",
+        "operator": "Rena sitsen",
+        "supervised": "yes",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0580965,
+          59.330459
+        ]
+      },
+      "id": "node/2494165898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2560497582",
+        "amenity": "toilets",
+        "check_date": "2021-08-19",
+        "mapillary": "1604949600341699",
+        "owner": "Stockholms stad",
+        "toilets:disposal": "flush",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0428652,
+          59.2631508
+        ]
+      },
+      "id": "node/2560497582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2571793279",
+        "building": "yes",
+        "changing_table": "yes",
+        "check_date": "2023-09-09",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "namn": "Toalett Brommaplan",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9386297,
+          59.3389029
+        ]
+      },
+      "id": "node/2571793279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2933323739",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9763444,
+          59.2942832
+        ]
+      },
+      "id": "node/2933323739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3200776743",
+        "access": "yes",
+        "amenity": "toilets",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1023825,
+          59.2949245
+        ]
+      },
+      "id": "node/3200776743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3632143752",
+        "amenity": "toilets",
+        "name": "Toaletter, omklädnad, dusch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1616127,
+          59.2531117
+        ]
+      },
+      "id": "node/3632143752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3635154983",
+        "access": "customers",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0952261,
+          59.331521
+        ]
+      },
+      "id": "node/3635154983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3635588044",
+        "access": "yes",
+        "addr:housenumber": "12",
+        "addr:street": "Rosendalsterrassen",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "check_date": "2024-04-27",
+        "ele": "21.63",
+        "fee": "no",
+        "opening_hours": "11:00-16:00",
+        "source": "survey",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1157935,
+          59.3275435
+        ]
+      },
+      "id": "node/3635588044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3723792937",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1149817,
+          59.2835544
+        ]
+      },
+      "id": "node/3723792937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4033757299",
+        "amenity": "toilets",
+        "fee": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "toilets:position": "seated",
+        "unisex": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0725238,
+          59.3310046
+        ]
+      },
+      "id": "node/4033757299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4254524923",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "yes",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0089877,
+          59.2788208
+        ]
+      },
+      "id": "node/4254524923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4368041862",
+        "access": "yes",
+        "amenity": "toilets",
+        "drinking_water": "seasonal",
+        "female": "yes",
+        "male": "yes",
+        "name": "Östermalms cykelservice HB",
+        "phone": "+46-8-6608809",
+        "service:bicycle:cleaning": "no",
+        "service:bicycle:rental": "no",
+        "service:bicycle:repair": "yes",
+        "service:bicycle:retail": "no",
+        "service:bicycle:second_hand": "no",
+        "shop": "bicycle",
+        "toilets:disposal": "chemical",
+        "toilets:position": "squat",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0857733,
+          59.3334473
+        ]
+      },
+      "id": "node/4368041862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4732653749",
+        "building": "yes",
+        "changing_table": "yes",
+        "check_date": "2023-04-07",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Telefonplan/ Mikrofonvägen",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9969603,
+          59.2979917
+        ]
+      },
+      "id": "node/4732653749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4866592761",
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.050931,
+          59.297128
+        ]
+      },
+      "id": "node/4866592761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4917115048",
+        "access": "customers",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "check_date": "2025-10-28",
+        "check_date:opening_hours": "2025-10-28",
+        "fee": "yes",
+        "opening_hours": "Mo-Su 10:00-16:00",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0703524,
+          59.3260654
+        ]
+      },
+      "id": "node/4917115048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4917115049",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0729595,
+          59.3266428
+        ]
+      },
+      "id": "node/4917115049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5030242913",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "fee": "no",
+        "male": "yes",
+        "toilets:disposal": "pitlatrine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0423961,
+          59.3316737
+        ]
+      },
+      "id": "node/5030242913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5139444472",
+        "access": "yes",
+        "amenity": "toilets",
+        "charge": "5sek",
+        "check_date": "2025-09-02",
+        "fee": "yes",
+        "fixme": "Pissoir is free. Not sure how this can be mapped",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0754401,
+          59.3231513
+        ]
+      },
+      "id": "node/5139444472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5139444482",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "female": "yes",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "male": "yes",
+        "name": "Toalett Skeppsbron",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:position": "seated;urinal",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0758963,
+          59.3254053
+        ]
+      },
+      "id": "node/5139444482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5168944621",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "yes",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0285424,
+          59.3076416
+        ]
+      },
+      "id": "node/5168944621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5320545219",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0992781,
+          59.3272194
+        ]
+      },
+      "id": "node/5320545219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5417312399",
+        "amenity": "toilets",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "level": "0",
+        "mapillary": "1487696225897844",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "panoramax": "9e41036c-7361-4d7e-911c-e027bd41ca52",
+        "panoramax:0": "8126ce1f-5cf6-4f80-b472-ddcf67dc26bf",
+        "panoramax:1": "aa7aed97-beb6-4bda-ad49-cee0e29a6b1a",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9474538,
+          59.3630522
+        ]
+      },
+      "id": "node/5417312399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5574707149",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2024-07-27",
+        "unisex": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1006354,
+          59.3255001
+        ]
+      },
+      "id": "node/5574707149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5641916262",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "check_date": "2025-01-26",
+        "fee": "no",
+        "female": "no",
+        "male": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated;urinal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0732067,
+          59.3476185
+        ]
+      },
+      "id": "node/5641916262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5641916263",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0717395,
+          59.3479754
+        ]
+      },
+      "id": "node/5641916263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5641916264",
+        "amenity": "toilets",
+        "check_date": "2026-01-07",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0740784,
+          59.3485703
+        ]
+      },
+      "id": "node/5641916264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5747554078",
+        "amenity": "toilets",
+        "male": "yes",
+        "toilets:disposal": "flush"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0527684,
+          59.3126652
+        ]
+      },
+      "id": "node/5747554078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5869178329",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "fee": "yes",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0634683,
+          59.3242388
+        ]
+      },
+      "id": "node/5869178329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5869178330",
+        "amenity": "toilets",
+        "fee": "no",
+        "male": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "urinal",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0633939,
+          59.3242593
+        ]
+      },
+      "id": "node/5869178330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5872319885",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "fee": "no",
+        "male": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "urinal",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0809232,
+          59.313856
+        ]
+      },
+      "id": "node/5872319885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5908739999",
+        "access": "yes",
+        "amenity": "toilets",
+        "capacity": "5",
+        "capacity:disabled": "1",
+        "changing_table": "yes",
+        "changing_table:count": "1",
+        "changing_table:location": "wheelchair_toilet",
+        "fee": "yes",
+        "level": "0",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-18:00; Su 08:00-17:00",
+        "supervised": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated",
+        "unisex": "yes",
+        "wheelchair": "designated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0904825,
+          59.3401314
+        ]
+      },
+      "id": "node/5908739999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6147685283",
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0954155,
+          59.3227974
+        ]
+      },
+      "id": "node/6147685283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6147685284",
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0958632,
+          59.3228676
+        ]
+      },
+      "id": "node/6147685284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6147685285",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.095223,
+          59.3231806
+        ]
+      },
+      "id": "node/6147685285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6147685303",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0966908,
+          59.324353
+        ]
+      },
+      "id": "node/6147685303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6147685311",
+        "amenity": "toilets",
+        "check_date": "2025-05-10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0976996,
+          59.3241665
+        ]
+      },
+      "id": "node/6147685311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6147685312",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0984185,
+          59.3236424
+        ]
+      },
+      "id": "node/6147685312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6278191866",
+        "amenity": "toilets",
+        "male": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.016525,
+          59.301543
+        ]
+      },
+      "id": "node/6278191866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6530497216",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0114838,
+          59.3128575
+        ]
+      },
+      "id": "node/6530497216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6582489844",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1029567,
+          59.3276705
+        ]
+      },
+      "id": "node/6582489844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6806048085",
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1029328,
+          59.2704369
+        ]
+      },
+      "id": "node/6806048085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6821142528",
+        "amenity": "toilets",
+        "check_date": "2024-10-24",
+        "check_date:wheelchair": "2024-10-24",
+        "fee": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1029444,
+          59.2749357
+        ]
+      },
+      "id": "node/6821142528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6886797350",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "opening_hours": "Mo-Fr 08:00-19:15; Sa 08:30-17:15; Su 09:30-17:15",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0821989,
+          59.2925405
+        ]
+      },
+      "id": "node/6886797350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6925333754",
+        "amenity": "toilets",
+        "capacity": "3",
+        "fee": "no",
+        "level": "5",
+        "name": "WC Lindhagen",
+        "opening_hours": "Mo-Su 10:00-20:45",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0102,
+          59.3371
+        ]
+      },
+      "id": "node/6925333754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6925458516",
+        "access": "customers",
+        "amenity": "toilets",
+        "description": "vid kassorna i ica",
+        "level": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0100597,
+          59.3371989
+        ]
+      },
+      "id": "node/6925458516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6978060187",
+        "amenity": "toilets",
+        "check_date:opening_hours": "2024-08-07",
+        "fee": "yes",
+        "level": "-1",
+        "opening_hours": "Mo-Fr 08:30-22:30; Sa 09:00-22:30; Su 10:00-22:30",
+        "supervised": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0631523,
+          59.3321748
+        ]
+      },
+      "id": "node/6978060187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7080294643",
+        "access": "yes",
+        "amenity": "toilets",
+        "capacity": "3",
+        "charge": "10 SEK",
+        "fee": "yes",
+        "level": "0",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00; Su 09:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0911149,
+          59.339345
+        ]
+      },
+      "id": "node/7080294643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7081966216",
+        "access": "customers",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0995017,
+          59.3274169
+        ]
+      },
+      "id": "node/7081966216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7083910043",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "check_date": "2019-12-25",
+        "fee": "no",
+        "female": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0766991,
+          59.3443965
+        ]
+      },
+      "id": "node/7083910043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7099633419",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "male": "yes",
+        "toilets:position": "urinal",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0313808,
+          59.3193132
+        ]
+      },
+      "id": "node/7099633419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7112447493",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "check_date": "2025-01-03",
+        "fee": "no",
+        "level": "-1",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9556966,
+          59.3558766
+        ]
+      },
+      "id": "node/7112447493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7153971973",
+        "access": "permissive",
+        "amenity": "toilets",
+        "check_date": "2023-06-26",
+        "description": "Open when café is open",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0427592,
+          59.3397514
+        ]
+      },
+      "id": "node/7153971973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7164301785",
+        "access": "customers",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "check_date": "2025-04-17",
+        "check_date:wheelchair": "2025-04-17",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.101685,
+          59.3244529
+        ]
+      },
+      "id": "node/7164301785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7164786478",
+        "access": "customers",
+        "amenity": "toilets",
+        "check_date": "2020-01-27",
+        "wheelchair": "designated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1083196,
+          59.3276831
+        ]
+      },
+      "id": "node/7164786478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7165983806",
+        "access": "customers",
+        "amenity": "toilets",
+        "check_date": "2023-03-22",
+        "fee": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0470559,
+          59.3398522
+        ]
+      },
+      "id": "node/7165983806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7182346054",
+        "access": "customers",
+        "amenity": "toilets",
+        "check_date": "2020-02-03",
+        "indoor": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.118511,
+          59.3320424
+        ]
+      },
+      "id": "node/7182346054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7227587405",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9083309,
+          59.2937471
+        ]
+      },
+      "id": "node/7227587405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7272659591",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2020-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.106561,
+          59.3273058
+        ]
+      },
+      "id": "node/7272659591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7280528437",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "yes",
+        "opening_hours": "Sa 11:00-16:00; Mo-Fr 11:00-18:00; Su 12:00-16:00",
+        "payment:credit_cards": "yes",
+        "payment:swish": "yes",
+        "supervised": "yes",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0324,
+          59.3349
+        ]
+      },
+      "id": "node/7280528437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7294234246",
+        "changing_table": "yes",
+        "disused:amenity": "toilets",
+        "fee": "yes",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "namn": "Toalett Ringvägen/Hornsgatan Zinken",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0506386,
+          59.3177269
+        ]
+      },
+      "id": "node/7294234246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7296559329",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "yes",
+        "gender_segregated": "no",
+        "level": "2",
+        "operator": "Åhlens",
+        "supervised": "yes",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0621915,
+          59.3325442
+        ]
+      },
+      "id": "node/7296559329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7319718731",
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9036251,
+          59.3369703
+        ]
+      },
+      "id": "node/7319718731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7557292742",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0772901,
+          59.253589
+        ]
+      },
+      "id": "node/7557292742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7569482686",
+        "amenity": "toilets",
+        "fee": "no",
+        "survey:date": "2020-05-29",
+        "undefined": "unisex",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0595096,
+          59.2961937
+        ]
+      },
+      "id": "node/7569482686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7597644699",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1091214,
+          59.2464907
+        ]
+      },
+      "id": "node/7597644699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7600913845",
+        "access": "yes",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Bagarmossen C T-bana",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1309732,
+          59.2763112
+        ]
+      },
+      "id": "node/7600913845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7648727537",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0859725,
+          59.2371009
+        ]
+      },
+      "id": "node/7648727537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7657261625",
+        "amenity": "toilets",
+        "toilets:disposal": "bucket",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1268993,
+          59.2492114
+        ]
+      },
+      "id": "node/7657261625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7658289965",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "fee": "no",
+        "male": "yes",
+        "name": "Urinoar",
+        "toilets:handwashing": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0831423,
+          59.2585966
+        ]
+      },
+      "id": "node/7658289965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7658292704",
+        "amenity": "toilets",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0818062,
+          59.257867
+        ]
+      },
+      "id": "node/7658292704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7681253886",
+        "access": "yes",
+        "amenity": "toilets",
+        "toilets:disposal": "bucket",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1204842,
+          59.2487688
+        ]
+      },
+      "id": "node/7681253886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7928661244",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0951571,
+          59.2792099
+        ]
+      },
+      "id": "node/7928661244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7928755500",
+        "amenity": "toilets",
+        "building": "yes",
+        "check_date": "2026-01-22",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Bredäng/ Trissan parklek",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9315929,
+          59.2966808
+        ]
+      },
+      "id": "node/7928755500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8243569652",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "indoor": "yes",
+        "operator": "Rålambshovsparken Parklek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0237391,
+          59.3283732
+        ]
+      },
+      "id": "node/8243569652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8492972309",
+        "amenity": "toilets",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8821402,
+          59.360709
+        ]
+      },
+      "id": "node/8492972309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8587809280",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_R%C3%A5lambshovparken_2026_jan_06.jpg",
+        "image:license": "CC0",
+        "name": "Toalett Odengatan 77",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0488858,
+          59.3425063
+        ]
+      },
+      "id": "node/8587809280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8622427653",
+        "access": "yes",
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_R%C3%A5lambshovparken_2026_jan_06.jpg",
+        "image:license": "CC0",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8721592,
+          59.3622437
+        ]
+      },
+      "id": "node/8622427653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8622720147",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.875294,
+          59.3615667
+        ]
+      },
+      "id": "node/8622720147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8661970179",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "fee": "no",
+        "male": "yes",
+        "toilets:disposal": "pitlatrine",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0761832,
+          59.3118737
+        ]
+      },
+      "id": "node/8661970179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8911378390",
+        "amenity": "toilets",
+        "fee": "no",
+        "operator": "Konserthuset Stockholm",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0626386,
+          59.3351193
+        ]
+      },
+      "id": "node/8911378390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9019946772",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "portable": "yes",
+        "toilets:disposal": "chemical",
+        "toilets:handwashing": "no",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0478969,
+          59.2663653
+        ]
+      },
+      "id": "node/9019946772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9025836735",
+        "access": "customers",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1047908,
+          59.324787
+        ]
+      },
+      "id": "node/9025836735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9083726951",
+        "amenity": "toilets",
+        "fee": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1251051,
+          59.3221449
+        ]
+      },
+      "id": "node/9083726951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9382082948",
+        "amenity": "toilets",
+        "charge": "10",
+        "check_date": "2023-02-11",
+        "fee": "yes",
+        "name": "WC kulturhuset"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0646498,
+          59.3319131
+        ]
+      },
+      "id": "node/9382082948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9646896909",
+        "access": "customers",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0342918,
+          59.3275883
+        ]
+      },
+      "id": "node/9646896909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9646923631",
+        "access": "customers",
+        "amenity": "toilets",
+        "level": "-1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0341735,
+          59.3272907
+        ]
+      },
+      "id": "node/9646923631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9668335573",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "fee": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1188575,
+          59.329541
+        ]
+      },
+      "id": "node/9668335573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9748210746",
+        "access": "yes",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Fredhällsparken",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0039889,
+          59.3314481
+        ]
+      },
+      "id": "node/9748210746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9769321976",
+        "access": "yes",
+        "amenity": "toilets",
+        "charge": "50 SEK",
+        "fee": "yes",
+        "payment:cash": "no",
+        "payment:visa": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0870611,
+          59.3173498
+        ]
+      },
+      "id": "node/9769321976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9784891345",
+        "access": "customers",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0753998,
+          59.3182573
+        ]
+      },
+      "id": "node/9784891345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9788137253",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2026-01-29",
+        "fee": "yes",
+        "female": "yes",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_Klara_M%C3%A4larstrand_2026_jan_02.jpg",
+        "image:license": "CC0",
+        "male": "yes",
+        "mapillary": "1476618594032909",
+        "operator": "Stockholms stad",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0579709,
+          59.3278909
+        ]
+      },
+      "id": "node/9788137253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9872583661",
+        "amenity": "toilets",
+        "check_date": "2024-01-27",
+        "fee": "yes",
+        "level": "0",
+        "operator": "One Hundred Restrooms",
+        "supervised": "yes",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.067426,
+          59.3301711
+        ]
+      },
+      "id": "node/9872583661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9922555009",
+        "amenity": "toilets",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1072607,
+          59.327034
+        ]
+      },
+      "id": "node/9922555009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9955035548",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "fee": "no",
+        "toilets:disposal": "chemical",
+        "unisex": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9842101,
+          59.3221113
+        ]
+      },
+      "id": "node/9955035548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10172419501",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "male": "yes",
+        "toilets:handwashing": "no",
+        "toilets:position": "urinal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0495879,
+          59.2701073
+        ]
+      },
+      "id": "node/10172419501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10180723346",
+        "access": "yes",
+        "amenity": "toilets",
+        "description": "Almänna toaletter",
+        "description:en": "Public toilets",
+        "fee": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0927131,
+          59.3296703
+        ]
+      },
+      "id": "node/10180723346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10189302015",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2022-11-16",
+        "fee": "yes",
+        "level": "-1",
+        "name": "Wc Ringen",
+        "opening_hours": "Mo-Th 08:00-21:30; Fr 08:00-22:30; Sa 10:00-22:30; Su 11:00-20:30",
+        "supervised": "yes",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0755806,
+          59.3083799
+        ]
+      },
+      "id": "node/10189302015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10199655164",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "yes",
+        "gender_segregated": "no",
+        "level": "1",
+        "operator": "One Hundred Restrooms",
+        "supervised": "yes",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0222658,
+          59.3093967
+        ]
+      },
+      "id": "node/10199655164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10539845974",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "layer": "1",
+        "level": "1",
+        "opening_hours": "08:30-17:30; May 01-Sep 03 05:45-17:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1115202,
+          59.3515122
+        ]
+      },
+      "id": "node/10539845974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10677197219",
+        "amenity": "toilets",
+        "portable": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9932247,
+          59.321739
+        ]
+      },
+      "id": "node/10677197219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11065469183",
+        "access": "permissive",
+        "amenity": "toilets",
+        "check_date": "2023-07-23",
+        "fee": "no",
+        "level": "0",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.096313,
+          59.3249815
+        ]
+      },
+      "id": "node/11065469183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11067741049",
+        "amenity": "toilets",
+        "charge": "5 SEK",
+        "fee": "yes",
+        "level": "-1",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.078065,
+          59.335769
+        ]
+      },
+      "id": "node/11067741049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11068832663",
+        "amenity": "toilets",
+        "name": "Toalett - WC - Brunnsvikens strandbad",
+        "operator": "Stockholms stad",
+        "toilets:disposal": "chemical"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0491424,
+          59.3619347
+        ]
+      },
+      "id": "node/11068832663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11299877671",
+        "amenity": "toilets",
+        "fee": "no",
+        "male": "yes",
+        "toilets:position": "urinal",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0725081,
+          59.3310312
+        ]
+      },
+      "id": "node/11299877671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11323242669",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "fee": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9949481,
+          59.3077197
+        ]
+      },
+      "id": "node/11323242669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11606322450",
+        "access": "yes",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0660197,
+          59.2534485
+        ]
+      },
+      "id": "node/11606322450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11675221753",
+        "amenity": "toilets",
+        "male": "yes",
+        "source": "local knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1489478,
+          59.2706553
+        ]
+      },
+      "id": "node/11675221753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11675221754",
+        "amenity": "toilets",
+        "female": "yes",
+        "source": "local knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1488407,
+          59.2706327
+        ]
+      },
+      "id": "node/11675221754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11868306928",
+        "access": "yes",
+        "addr:floor": "0",
+        "amenity": "toilets",
+        "charge": "10 SEK",
+        "check_date": "2024-07-18",
+        "fee": "yes",
+        "level": "0",
+        "opening_hours": "24/7",
+        "payment:cards": "yes",
+        "payment:credit_cards": "yes",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0691925,
+          59.3148427
+        ]
+      },
+      "id": "node/11868306928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12057146146",
+        "amenity": "toilets",
+        "check_date": "2024-07-16",
+        "level": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0538555,
+          59.368835
+        ]
+      },
+      "id": "node/12057146146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12060906958",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "check_date": "2024-07-18",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9014674,
+          59.3486326
+        ]
+      },
+      "id": "node/12060906958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12066966838",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "check_date": "2025-05-01",
+        "fee": "no",
+        "level": "-1",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0779797,
+          59.3283968
+        ]
+      },
+      "id": "node/12066966838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12102894384",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0710063,
+          59.3305837
+        ]
+      },
+      "id": "node/12102894384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12146805046",
+        "amenity": "toilets",
+        "female": "yes",
+        "male": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1019018,
+          59.2692357
+        ]
+      },
+      "id": "node/12146805046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12192854100",
+        "access": "customers",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1187637,
+          59.333055
+        ]
+      },
+      "id": "node/12192854100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12264532458",
+        "access": "customers",
+        "amenity": "toilets",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.061056,
+          59.3311839
+        ]
+      },
+      "id": "node/12264532458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12284615881",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0019279,
+          59.3381211
+        ]
+      },
+      "id": "node/12284615881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12288430701",
+        "amenity": "toilets",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0713619,
+          59.3153967
+        ]
+      },
+      "id": "node/12288430701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12473659398",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "fee": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0775376,
+          59.3357949
+        ]
+      },
+      "id": "node/12473659398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12765641884",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "fee": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9949064,
+          59.3076743
+        ]
+      },
+      "id": "node/12765641884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12801920135",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2025-05-01",
+        "fee": "yes",
+        "level": "-1",
+        "toilets:disposal": "flush"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0677919,
+          59.3314715
+        ]
+      },
+      "id": "node/12801920135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13039325601",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0576826,
+          59.3301735
+        ]
+      },
+      "id": "node/13039325601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13051824942",
+        "amenity": "toilets",
+        "fee": "yes",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0110944,
+          59.2784219
+        ]
+      },
+      "id": "node/13051824942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13058272701",
+        "addr:housenumber": "12",
+        "addr:street": "Rosendalsterrassen",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1154601,
+          59.3276578
+        ]
+      },
+      "id": "node/13058272701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13074482684",
+        "access": "unknown",
+        "amenity": "toilets",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8725855,
+          59.3622164
+        ]
+      },
+      "id": "node/13074482684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13078318901",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0934575,
+          59.3305991
+        ]
+      },
+      "id": "node/13078318901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13094500201",
+        "addr:housenumber": "7",
+        "addr:street": "Arenaslingan",
+        "amenity": "toilets",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0839742,
+          59.2926053
+        ]
+      },
+      "id": "node/13094500201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13176341120",
+        "amenity": "toilets",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Vårbergstoppen",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8805595,
+          59.2724331
+        ]
+      },
+      "id": "node/13176341120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13255537816",
+        "access": "yes",
+        "amenity": "toilets",
+        "charge": "10 SEK",
+        "check_date": "2025-10-25",
+        "fee": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0637586,
+          59.3139975
+        ]
+      },
+      "id": "node/13255537816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13432470449",
+        "amenity": "toilets",
+        "fee": "yes",
+        "indoor": "yes",
+        "level": "-1",
+        "location": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0596305,
+          59.3309051
+        ]
+      },
+      "id": "node/13432470449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13485092294",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "gender_segregated": "no",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Rinkebystr%C3%A5ket_02.jpg",
+        "image:license": "CC0",
+        "male": "yes",
+        "mapillary": "1613933406422513",
+        "note": "Urinoar gratis 24/7",
+        "opening_hours": "24/7",
+        "operator": "Stockholms stad",
+        "panoramax": "a1e6a551-e475-4fce-82a5-96846ff111f0",
+        "panoramax:0": "be0775b3-3ba1-44c9-aae1-e103cf14b3bc",
+        "panoramax:1": "1ce3457a-2f0e-4b0b-8e10-9f46714ed2ce",
+        "panoramax:2": "72213d1e-3103-45ce-a384-c85c6650afe3",
+        "toilets:disposal": "flush",
+        "toilets:position": "urinal",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.926124,
+          59.3887742
+        ]
+      },
+      "id": "node/13485092294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13495584857",
+        "access": "yes",
+        "amenity": "toilets",
+        "charge": "5 SEK",
+        "fee": "yes",
+        "image": "https://commons.wikimedia.org/wiki/Category:Public_toilets_in_Stockholm#/media/File:Stockholms_stads_offentliga_toalett_Rinkebystr%C3%A5ket_03.jpg",
+        "image:license": "CC0",
+        "mapillary": "1613933406422513",
+        "opening_hours": "24/7",
+        "operator": "Stockholms stad",
+        "panoramax": "a1e6a551-e475-4fce-82a5-96846ff111f0",
+        "panoramax:0": "be0775b3-3ba1-44c9-aae1-e103cf14b3bc",
+        "panoramax:1": "1ce3457a-2f0e-4b0b-8e10-9f46714ed2ce",
+        "panoramax:2": "72213d1e-3103-45ce-a384-c85c6650afe3",
+        "payment:cash": "yes",
+        "toilets:position": "seated",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9261267,
+          59.3887462
+        ]
+      },
+      "id": "node/13495584857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13505560123",
+        "access": "yes",
+        "amenity": "toilets",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_Olof_Palmes_gata_2026_Jan_01.jpg",
+        "image:licens": "CC0",
+        "male": "yes",
+        "mapillary": "4242416272666529",
+        "toilets:disposal": "flush",
+        "toilets:position": "urinal",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0545803,
+          59.3346252
+        ]
+      },
+      "id": "node/13505560123"
+    }
+  ]
+}
