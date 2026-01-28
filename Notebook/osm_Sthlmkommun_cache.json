@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.10 2d4cfc48",
   "osm3s": {
-    "timestamp_osm_base": "2026-01-27T23:28:01Z",
-    "timestamp_areas_base": "2026-01-23T01:22:35Z",
+    "timestamp_osm_base": "2026-01-28T02:34:47Z",
+    "timestamp_areas_base": "2026-01-22T23:45:51Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -13,9 +13,17 @@
       "lat": 59.3385713,
       "lon": 18.0553167,
       "tags": {
-        "amenity": "toilets",
         "changing_table": "yes",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Sveav%C3%A4gen_39A_2026_jan_01.jpg",
+        "image:license": "CC0",
+        "name": "Toialett Tegnerlunden",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "wheelchair": "yes"
       }
     },
@@ -182,9 +190,16 @@
       "lat": 59.3406906,
       "lon": 18.0427379,
       "tags": {
-        "amenity": "toilets",
-        "check_date": "2021-01-08",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_Odengatan_90_2026_Jan_01.jpg",
+        "image:license": "CC0",
+        "name": "Toalett Odengatan 90",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "wheelchair": "yes"
       }
     },
@@ -283,10 +298,18 @@
       "lon": 18.0610549,
       "tags": {
         "access": "yes",
-        "amenity": "toilets",
         "changing_table": "yes",
-        "check_date": "2020-08-17",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalettt_Drottninggatan_2026_jan_02.jpg",
+        "image:license": "CC0",
+        "name": "Toalett Drottningatan",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
         "wheelchair": "yes"
       }
     },
@@ -436,9 +459,19 @@
       "lat": 59.3408557,
       "lon": 18.054234,
       "tags": {
-        "amenity": "toilets",
-        "check_date": "2020-02-13",
+        "building": "yes",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_R%C3%A5lambshovparken_2026_jan_06.jpg",
+        "image:license": "CC0",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
         "wheelchair": "yes"
       }
     },
@@ -627,10 +660,15 @@
       "lat": 59.3389029,
       "lon": 17.9386297,
       "tags": {
-        "amenity": "toilets",
+        "building": "yes",
         "changing_table": "yes",
         "check_date": "2023-09-09",
-        "fee": "no",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "namn": "Toalett Brommaplan",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "wheelchair": "limited"
       }
     },
@@ -1564,8 +1602,20 @@
       "lat": 59.3425063,
       "lon": 18.0488858,
       "tags": {
+        "access": "yes",
         "amenity": "toilets",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_R%C3%A5lambshovparken_2026_jan_06.jpg",
+        "image:license": "CC0",
+        "name": "Toalett Odengatan 77",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
         "wheelchair": "yes"
       }
     },
@@ -1576,8 +1626,14 @@
       "lon": 17.8721592,
       "tags": {
         "access": "yes",
-        "amenity": "toilets",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_R%C3%A5lambshovparken_2026_jan_06.jpg",
+        "image:license": "CC0",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "wheelchair": "yes"
       }
     },
@@ -1706,7 +1762,12 @@
       "lon": 18.0039889,
       "tags": {
         "access": "yes",
-        "amenity": "toilets"
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Fredhällsparken",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/"
       }
     },
     {
@@ -1743,9 +1804,13 @@
       "tags": {
         "access": "yes",
         "amenity": "toilets",
+        "check_date": "2026-01-29",
         "fee": "yes",
         "female": "yes",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_Klara_M%C3%A4larstrand_2026_jan_02.jpg",
+        "image:license": "CC0",
         "male": "yes",
+        "operator": "Stockholms stad",
         "wheelchair": "yes"
       }
     },
@@ -2290,6 +2355,21 @@
       }
     },
     {
+      "type": "node",
+      "id": 13505560123,
+      "lat": 59.3346252,
+      "lon": 18.0545803,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_Olof_Palmes_gata_2026_Jan_01.jpg",
+        "image:licens": "CC0",
+        "male": "yes",
+        "toilets:disposal": "flush",
+        "wheelchair": "no"
+      }
+    },
+    {
       "type": "way",
       "id": 117573214,
       "center": {
@@ -2409,6 +2489,7 @@
         "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Kronobergsparken_01.jpg",
         "image:license": "CC0",
         "male": "yes",
+        "namn": "Urinoar Kronobergsgatan 11",
         "operator": "Stockholms stad",
         "toilets:access": "yes",
         "toilets:disposal": "flush",
@@ -2589,9 +2670,14 @@
       ],
       "tags": {
         "access": "yes",
-        "amenity": "toilets",
         "building": "yes",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Alviks torg",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "toilets:disposal": "flush",
         "unisex": "yes",
         "wheelchair": "yes"
@@ -2751,10 +2837,21 @@
         6839906393
       ],
       "tags": {
-        "amenity": "toilets",
         "building": "yes",
         "changing_table": "yes",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_Bellevueparken_2026_jan_02.jpg",
+        "image:license": "CC0",
+        "name": "Toalett Rålambshovspark",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
         "unisex": "yes"
       }
     },
@@ -2774,11 +2871,20 @@
       ],
       "tags": {
         "access": "yes",
-        "amenity": "toilets",
         "building": "shed",
         "changing_table": "yes",
-        "check_date": "2020-02-02",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
         "fee": "yes",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_Observatorielunden_Sveav%C3%A4gen_2026_jan_02.jpg",
+        "image:license": "CC0",
+        "name": "Toalett Observatorielunden/Sveavägen",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
         "wheelchair": "yes"
       }
     },
@@ -2925,9 +3031,15 @@
         "building": "toilets",
         "building:levels": "1",
         "check_date": "2020-08-08",
+        "disused:amenity": "toilets",
         "fee": "no",
         "female": "yes",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
         "male": "yes",
+        "name": "Toalett Långholmsbadet",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "toilets:position": "seated;urinal",
         "unisex": "yes",
         "wheelchair": "yes"
@@ -3071,10 +3183,19 @@
         9663829979
       ],
       "tags": {
-        "amenity": "toilets",
         "building": "yes",
         "changing_table": "yes",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Norra_Bantorget_2026_jan_02.jpg",
+        "image:license": "CC0",
+        "name": "Toalett Norra Bantorget",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
         "wheelchair": "yes"
       }
     },
@@ -3117,9 +3238,10 @@
         "check_date": "2026-01-27",
         "disused:amenity": "toilets",
         "fee": "no",
-        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
         "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_R%C3%A5lambshovparken_2026_jan_06.jpg",
         "image:license": "CC0",
+        "name": "Toalett Rålambshovspark",
         "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
         "operator": "Stockholms stad",
         "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
@@ -3169,9 +3291,18 @@
         10913999523
       ],
       "tags": {
-        "amenity": "toilets",
         "building": "toilets",
-        "building:levels": "1"
+        "building:levels": "1",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_Sankt_Eriksplan_2026_jan_01.jpg",
+        "image:license": "CC0",
+        "name": "Toalett Sankt Eriksplan",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "wheelchair": "yes"
       }
     },
     {
@@ -3348,8 +3479,13 @@
         11988616037
       ],
       "tags": {
-        "amenity": "toilets",
-        "building": "toilets"
+        "building": "toilets",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Hornsbergs strand",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/"
       }
     },
     {
@@ -3368,8 +3504,19 @@
       ],
       "tags": {
         "access": "yes",
-        "amenity": "toilets",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Vanadislunden_2026_jan_03.jpg",
+        "image:license": "CC0",
+        "name": "Toalett Vanadislunden",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
         "wheelchair": "yes"
       }
     },
@@ -3665,11 +3812,18 @@
       ],
       "tags": {
         "access": "yes",
-        "amenity": "toilets",
         "building": "yes",
         "changing_table": "yes",
-        "check_date": "2024-09-06",
+        "check_date": "2026-01-27",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_Norra_Stationsparken_2026_jan_01.jpg",
+        "image:license": "CC0",
+        "name": "Toalett Norra Stationsparken",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "wheelchair": "yes"
       }
     },
