@@ -1,6 +1,6 @@
 
 Magnus Sälgö <salgo1960@gmail.com>
-till nyatunnelbanan.fu
+till nyatunnelbanan.fu@regionstockholm.se 
 
 Hej 
 
