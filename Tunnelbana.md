@@ -12,5 +12,7 @@ vår diskussion på OSM
 https://community.openstreetmap.org/t/gula-linjen-i-stockholms-tunnelbana/137780
 
 Hälsningar
+
 Magnus Sälgö
+
 0046-735152802
