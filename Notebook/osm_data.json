@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.10 2d4cfc48",
   "osm3s": {
-    "timestamp_osm_base": "2026-01-28T02:34:47Z",
+    "timestamp_osm_base": "2026-01-28T08:20:01Z",
     "timestamp_areas_base": "2026-01-22T23:45:51Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -69,9 +69,13 @@
       "lat": 59.3454123,
       "lon": 18.0721733,
       "tags": {
-        "amenity": "toilets",
         "changing_table": "no",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "wheelchair": "yes"
       }
     },
@@ -83,8 +87,14 @@
       "tags": {
         "amenity": "toilets",
         "check_date": "2025-08-23",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "opening_hours": "24/7",
+        "operator": "Stockholms stad",
         "source": "survey",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "wheelchair": "yes"
       }
     },
@@ -170,7 +180,13 @@
         "amenity": "toilets",
         "changing_table": "yes",
         "check_date": "2025-08-14",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "namn": "Toalett Mariatorget",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "unisex": "yes",
         "wheelchair": "yes"
       }
@@ -219,9 +235,14 @@
       "lat": 59.3405711,
       "lon": 18.0927691,
       "tags": {
-        "amenity": "toilets",
         "check_date": "2022-06-04",
+        "disused:amenity": "toilets",
         "fee": "yes",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Tessinparken Valhallavägen",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "wheelchair": "yes"
       }
     },
@@ -242,8 +263,13 @@
       "lon": 18.0565235,
       "tags": {
         "access": "yes",
-        "amenity": "toilets",
-        "check_date": "2024-08-15"
+        "check_date": "2024-08-15",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Wollmar Yxkullsgatan 36",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/"
       }
     },
     {
@@ -322,11 +348,16 @@
         "addr:floor": "0",
         "addr:housenumber": "33",
         "addr:street": "Tjärhovsplan",
-        "amenity": "toilets",
         "changing_table": "yes",
         "check_date": "2024-05-25",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
         "level": "0",
+        "name": "Toalett Tjärhovsplan",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "wheelchair": "yes"
       }
     },
@@ -803,10 +834,16 @@
       "lat": 59.2979917,
       "lon": 17.9969603,
       "tags": {
-        "amenity": "toilets",
+        "building": "yes",
         "changing_table": "yes",
         "check_date": "2023-04-07",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Telefonplan/ Mikrofonvägen",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "wheelchair": "yes"
       }
     },
@@ -883,9 +920,17 @@
       "lat": 59.3254053,
       "lon": 18.0758963,
       "tags": {
-        "amenity": "toilets",
+        "disused:amenity": "toilets",
         "fee": "no",
-        "wheelchair": "limited"
+        "female": "yes",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "male": "yes",
+        "name": "Toalett Skeppsbron",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:position": "seated;urinal",
+        "unisex": "yes"
       }
     },
     {
@@ -1414,9 +1459,14 @@
       "lat": 59.3177269,
       "lon": 18.0506386,
       "tags": {
-        "amenity": "toilets",
         "changing_table": "yes",
+        "disused:amenity": "toilets",
         "fee": "yes",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "namn": "Toalett Ringvägen/Hornsgatan Zinken",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "unisex": "yes",
         "wheelchair": "yes"
       }
@@ -1492,8 +1542,13 @@
       "lon": 18.1309732,
       "tags": {
         "access": "yes",
-        "amenity": "toilets",
-        "fee": "no"
+        "disused:amenity": "toilets",
+        "fee": "no",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Bagarmossen C T-bana",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/"
       }
     },
     {
@@ -1570,7 +1625,15 @@
       "lat": 59.2966808,
       "lon": 17.9315929,
       "tags": {
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "building": "yes",
+        "check_date": "2026-01-22",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Bredäng/ Trissan parklek",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/"
       }
     },
     {
@@ -2272,7 +2335,13 @@
       "lat": 59.2724331,
       "lon": 17.8805595,
       "tags": {
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Vårbergstoppen",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/"
       }
     },
     {
@@ -2905,7 +2974,13 @@
       "tags": {
         "amenity": "toilets",
         "building": "yes",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Fagerliden",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "wheelchair": "yes"
       }
     },
@@ -2948,9 +3023,14 @@
         7680484091
       ],
       "tags": {
-        "amenity": "toilets",
         "building": "yes",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Eriksdalsbadet",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "toilets:disposal": "flush",
         "wheelchair": "yes"
       }
@@ -3027,7 +3107,6 @@
         8986446906
       ],
       "tags": {
-        "amenity": "toilets",
         "building": "toilets",
         "building:levels": "1",
         "check_date": "2020-08-08",
@@ -3105,9 +3184,14 @@
         9105581526
       ],
       "tags": {
-        "amenity": "toilets",
         "building": "yes",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Stora Mejtens Gränd",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "wheelchair": "yes"
       }
     },
@@ -3161,10 +3245,15 @@
         9487421809
       ],
       "tags": {
-        "amenity": "toilets",
         "building": "yes",
+        "disused:amenity": "toilets",
         "fee": "no",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
         "layer": "1",
+        "name": "Toalett Hjorthagen/Artemistrappan",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "wheelchair": "yes"
       }
     },
@@ -3980,6 +4069,80 @@
         "toilets:handwashing": "yes",
         "toilets:num_chambers": "4",
         "toilets:paper_supplied": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1471886052,
+      "center": {
+        "lat": 59.3432243,
+        "lon": 18.0960098
+      },
+      "nodes": [
+        13506006351,
+        13506006352,
+        13506006353,
+        13506006354,
+        13506006351
+      ],
+      "tags": {
+        "area": "yes",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Tessinparken - De Geersgatan",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1471889088,
+      "center": {
+        "lat": 59.2999531,
+        "lon": 18.0303689
+      },
+      "nodes": [
+        13506024915,
+        13506024916,
+        13506024917,
+        13506024918,
+        13506024915
+      ],
+      "tags": {
+        "addr:street": "Jyllandsgatan 16",
+        "building": "yes",
+        "check_date": "2026-01-22",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Årsta/Berg",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1471891341,
+      "center": {
+        "lat": 59.2715314,
+        "lon": 17.8988262
+      },
+      "nodes": [
+        13506037382,
+        13506037383,
+        13506037384,
+        13506037385,
+        13506037382
+      ],
+      "tags": {
+        "building": "yes",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Västerholmsparken",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/"
       }
     }
   ]
