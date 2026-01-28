@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.10 2d4cfc48",
   "osm3s": {
-    "timestamp_osm_base": "2026-01-28T14:34:00Z",
-    "timestamp_areas_base": "2026-01-23T01:22:35Z",
+    "timestamp_osm_base": "2026-01-28T20:55:02Z",
+    "timestamp_areas_base": "2026-01-22T23:45:51Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2497,6 +2497,38 @@
       }
     },
     {
+      "type": "node",
+      "id": 13507506976,
+      "lat": 59.2905352,
+      "lon": 17.9650766,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "mapillary": "24806659438951552",
+        "name": "Toalett Västertorpsvägen 70",
+        "operator": "Stockholms stad",
+        "toilets:disposal": "flush",
+        "toilets:position": "urinal",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13507528546,
+      "lat": 59.2898022,
+      "lon": 18.0701021,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "male": "yes",
+        "mapillary": "330937028458955",
+        "operator": "Stockholms stad",
+        "toilets:disposal": "flush",
+        "toilets:position": "urinal",
+        "wheelchair": "no"
+      }
+    },
+    {
       "type": "way",
       "id": 117573214,
       "center": {
@@ -3762,7 +3794,7 @@
         12169483796
       ],
       "tags": {
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "mapillary": "443331782189894",
         "portable": "yes",
@@ -4213,6 +4245,31 @@
         "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
         "operator": "Stockholms stad",
         "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1472073053,
+      "center": {
+        "lat": 59.2952102,
+        "lon": 17.9335979
+      },
+      "nodes": [
+        13507529477,
+        13507529478,
+        13507529479,
+        13507529480,
+        13507529477
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "mapillary": "1093006515162341",
+        "name": "Toalett Bredängs Alle",
+        "operator": "Stockholms stad",
+        "toilets:num_chambers": "2",
+        "unisex": "yes"
       }
     }
   ]
