@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.10 2d4cfc48",
   "osm3s": {
-    "timestamp_osm_base": "2026-01-28T13:25:45Z",
+    "timestamp_osm_base": "2026-01-28T13:58:18Z",
     "timestamp_areas_base": "2026-01-23T01:22:35Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -2442,6 +2442,23 @@
         "image:licens": "CC0",
         "male": "yes",
         "mapillary": "4242416272666529",
+        "toilets:disposal": "flush",
+        "toilets:position": "urinal",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13506726010,
+      "lat": 59.3255652,
+      "lon": 18.0710698,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholm-_K%C3%A4llargr%C3%A4nd_Urinoar_-_52324261780.jpg",
+        "image:licens": "CC0",
+        "male": "yes",
+        "mapillary": "173355591235014",
         "toilets:disposal": "flush",
         "toilets:position": "urinal",
         "wheelchair": "no"
