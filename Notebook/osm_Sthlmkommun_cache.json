@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.10 2d4cfc48",
   "osm3s": {
-    "timestamp_osm_base": "2026-01-28T20:55:02Z",
-    "timestamp_areas_base": "2026-01-22T23:45:51Z",
+    "timestamp_osm_base": "2026-01-29T04:02:45Z",
+    "timestamp_areas_base": "2026-01-23T01:22:35Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -43,9 +43,11 @@
       "lat": 59.357109,
       "lon": 18.1031275,
       "tags": {
+        "access": "yes",
         "amenity": "toilets",
         "changing_table": "no",
         "fee": "yes",
+        "name": "Toalett Gasverksvägen 52",
         "wheelchair": "no"
       }
     },
@@ -184,6 +186,7 @@
         "disused:amenity": "toilets",
         "fee": "no",
         "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "mapillary": "507299937130772",
         "namn": "Toalett Mariatorget",
         "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
         "operator": "Stockholms stad",
@@ -268,6 +271,7 @@
         "check_date": "2024-08-15",
         "disused:amenity": "toilets",
         "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "mapillary": "1072729054436970",
         "name": "Toalett Wollmar Yxkullsgatan 36",
         "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
         "operator": "Stockholms stad",
@@ -293,6 +297,9 @@
       "tags": {
         "amenity": "toilets",
         "fee": "yes",
+        "mapillary": "362496306726075",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
         "wheelchair": "no"
       }
     },
@@ -314,6 +321,7 @@
         "access": "yes",
         "amenity": "toilets",
         "fee": "yes",
+        "mapillary": "941790256587289",
         "toilets:disposal": "flush",
         "toilets:position": "seated;urinal",
         "wheelchair": "yes"
@@ -390,7 +398,8 @@
       "tags": {
         "amenity": "toilets",
         "check_date": "2022-06-06",
-        "fee": "yes"
+        "fee": "yes",
+        "mapillary": "162845333564905"
       }
     },
     {
@@ -412,8 +421,10 @@
       "lat": 59.3266026,
       "lon": 18.0811277,
       "tags": {
+        "access": "yes",
         "amenity": "toilets",
         "fee": "yes",
+        "mapillary": "289159202694531",
         "toilets:access": "yes",
         "wheelchair": "no"
       }
@@ -448,6 +459,7 @@
       "tags": {
         "amenity": "toilets",
         "fee": "yes",
+        "name": "Toalett Skånegatan 79",
         "wheelchair": "yes"
       }
     },
@@ -460,6 +472,12 @@
         "amenity": "toilets",
         "check_date": "2024-07-08",
         "fee": "yes",
+        "mapillary": "738228730222147",
+        "name": "Toalett Götgatan - Tjärhovsgatan",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "toilets:disposal": "flush",
+        "toilets:wheelchair": "yes",
         "wheelchair": "yes"
       }
     },
@@ -543,6 +561,7 @@
         "amenity": "toilets",
         "charge": "5 SEK",
         "fee": "yes",
+        "mapillary": "4693457604003669",
         "wheelchair": "yes"
       }
     },
@@ -915,6 +934,7 @@
         "check_date": "2025-09-02",
         "fee": "yes",
         "fixme": "Pissoir is free. Not sure how this can be mapped",
+        "name": "Toalett Skeppsbron 38",
         "wheelchair": "yes"
       }
     },
@@ -1042,9 +1062,12 @@
       "lat": 59.3126652,
       "lon": 18.0527684,
       "tags": {
+        "access": "yes",
         "amenity": "toilets",
         "male": "yes",
-        "toilets:disposal": "flush"
+        "toilets:disposal": "flush",
+        "toilets:position": "urinal",
+        "wheelchair": "no"
       }
     },
     {
@@ -1086,6 +1109,7 @@
         "changing_table": "no",
         "fee": "no",
         "male": "yes",
+        "mapillary": "470639777379796",
         "toilets:disposal": "flush",
         "toilets:position": "urinal",
         "wheelchair": "no"
@@ -2529,6 +2553,23 @@
       }
     },
     {
+      "type": "node",
+      "id": 13508109192,
+      "lat": 59.3260009,
+      "lon": 18.0955504,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "male": "yes",
+        "name": "Toalett Djurgårdsvägen 60",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "no",
+        "toilets:position": "urinal",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
       "type": "way",
       "id": 117573214,
       "center": {
@@ -2867,6 +2908,12 @@
         "building": "yes",
         "changing_table": "yes",
         "fee": "yes",
+        "mapillary": "903039445187401",
+        "name": "Allmänna Gränd-Djurgården",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
         "wheelchair": "yes"
       }
     },
@@ -3125,6 +3172,7 @@
         "disused:amenity": "toilets",
         "fee": "no",
         "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "mapillary": "815016684079565",
         "name": "Toalett Eriksdalsbadet",
         "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
         "operator": "Stockholms stad",
@@ -3182,6 +3230,7 @@
         "building": "yes",
         "check_date": "2024-05-24",
         "fee": "no",
+        "mapillary": "1632760714179043",
         "toilets:disposal": "flush",
         "toilets:hands_drying": "electric_hand_dryer",
         "toilets:handwashing": "yes",
