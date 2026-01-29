@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.10 2d4cfc48",
   "osm3s": {
-    "timestamp_osm_base": "2026-01-29T04:02:45Z",
-    "timestamp_areas_base": "2026-01-23T01:22:35Z",
+    "timestamp_osm_base": "2026-01-29T10:40:00Z",
+    "timestamp_areas_base": "2026-01-22T23:45:51Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -459,7 +459,11 @@
       "tags": {
         "amenity": "toilets",
         "fee": "yes",
+        "mapillary": "956457168442214",
         "name": "Toalett Skånegatan 79",
+        "operator": "Stockholms stad",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
         "wheelchair": "yes"
       }
     },
@@ -4318,6 +4322,36 @@
         "name": "Toalett Bredängs Alle",
         "operator": "Stockholms stad",
         "toilets:num_chambers": "2",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1472197797,
+      "center": {
+        "lat": 59.2856461,
+        "lon": 17.9161142
+      },
+      "nodes": [
+        13508550767,
+        13508550768,
+        13508550769,
+        13508550770,
+        13508550767
+      ],
+      "tags": {
+        "access": "yes",
+        "building": "yes",
+        "disused:amenity": "toilets",
+        "fixme": "Stängd toalett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
+        "name": "Toalett Sätradalsparken - Lövsätragränd 42",
+        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
+        "operator": "Stockholms stad",
+        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
+        "toilets:access": "public",
+        "toilets:disposal": "flush",
+        "toilets:location": "indoor",
+        "toilets:position": "seated",
         "unisex": "yes"
       }
     }
