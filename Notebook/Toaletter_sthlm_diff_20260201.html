@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1440ed97ae6876b0008d854cce4860fa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+<div style="
+ position: fixed;
+ bottom: 30px;
+ left: 30px;
+ z-index: 9999;
+ background-color: white;
+ padding: 10px;
+ border: 2px solid grey;
+ font-size: 14px;
+">
+<b>Legend – Toaletter Stockholm (diff)</b><br>
+<span style="color:green;">●</span> Tillkommen<br>
+<span style="color:red;">●</span> Borttagen<br>
+<span style="color:orange;">●</span> Flyttad<br>
+<span style="color:gold;">●</span> Attribut ändrat<br>
+<hr> Analys: versionsjämförelse 20260201<br /><br />
+<b> Mer info</b><br>
+• <a href="https://github.com/salgo60/Offentliga-toaletter/issues/8" target="_blank">GitHub Issue #8</a><br>
+• <a href="https://dataportalen.stockholm.se/dataportalen/GetMetaDataById?id=LvFeature15303196&showmetadataview" target="_blank">
+   Stockholms stads öppna data</a>
+</div>
+    
+            <div class="folium-map" id="map_1440ed97ae6876b0008d854cce4860fa" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1440ed97ae6876b0008d854cce4860fa = L.map(
+                "map_1440ed97ae6876b0008d854cce4860fa",
+                {
+                    center: [59.3293, 18.0686],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3065989554634ed99e7e3c7efa55a738 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3065989554634ed99e7e3c7efa55a738.addTo(map_1440ed97ae6876b0008d854cce4860fa);
+        
+    
+            var feature_group_c85f9a212c0cf6abc743bc23b9f3eb32 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_c85f9a212c0cf6abc743bc23b9f3eb32.addTo(map_1440ed97ae6876b0008d854cce4860fa);
+        
+    
+            var feature_group_86751f9eda0958b7f4522db9770f8bb0 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_86751f9eda0958b7f4522db9770f8bb0.addTo(map_1440ed97ae6876b0008d854cce4860fa);
+        
+    
+            var feature_group_617cb61d343efaad46aebe4d9a53f075 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_617cb61d343efaad46aebe4d9a53f075.addTo(map_1440ed97ae6876b0008d854cce4860fa);
+        
+    
+            var feature_group_8cb38d382ac968a1fa7dceab189a7724 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_8cb38d382ac968a1fa7dceab189a7724.addTo(map_1440ed97ae6876b0008d854cce4860fa);
+        
+    
+            var layer_control_b9aa8c4e96d49619509d7ee42073ebc0_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_3065989554634ed99e7e3c7efa55a738,
+                },
+                overlays :  {
+                    "\ud83d\udfe2 Tillkomna" : feature_group_c85f9a212c0cf6abc743bc23b9f3eb32,
+                    "\ud83d\udd34 Borttagna" : feature_group_86751f9eda0958b7f4522db9770f8bb0,
+                    "\ud83d\udfe0 Flyttade" : feature_group_617cb61d343efaad46aebe4d9a53f075,
+                    "\ud83d\udfe1 \u00c4ndrade attribut" : feature_group_8cb38d382ac968a1fa7dceab189a7724,
+                },
+            };
+            let layer_control_b9aa8c4e96d49619509d7ee42073ebc0 = L.control.layers(
+                layer_control_b9aa8c4e96d49619509d7ee42073ebc0_layers.base_layers,
+                layer_control_b9aa8c4e96d49619509d7ee42073ebc0_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_1440ed97ae6876b0008d854cce4860fa);
+
+        
+</script>
+</html>
