@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.10 2d4cfc48",
   "osm3s": {
-    "timestamp_osm_base": "2026-02-01T05:24:58Z",
-    "timestamp_areas_base": "2026-01-22T23:45:51Z",
+    "timestamp_osm_base": "2026-02-01T15:25:45Z",
+    "timestamp_areas_base": "2026-01-23T01:22:35Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -47,8 +47,14 @@
         "amenity": "toilets",
         "changing_table": "no",
         "fee": "yes",
+        "image": "https://commons.wikimedia.org/wiki/File:Ropstentoilet.jpg",
+        "image:license": "CC0",
         "name": "Toalett Gasverksvägen 52",
-        "wheelchair": "no"
+        "note": "Stockholms stad Anläggningsnr: G65",
+        "operator": "Stockholm stad",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
       }
     },
     {
@@ -301,7 +307,9 @@
         "fee": "yes",
         "gender_segregated": "no",
         "handwashing:soap": "yes",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_toaletter_Munkbrogatan_-_Lijonstedts_Gr%C3%A4nd_2026_jan_-_5.jpg",
         "mapillary": "362496306726075",
+        "name": "Toalett Munkbrogatan - Lijonstedts Gränd",
         "opening_hours": "24/7",
         "panoramax": "659ccc07-a37a-45fb-9513-fa5782c2268c",
         "panoramax:0": "d3a24ecb-88c4-4bcb-91c1-f502a3ed5412",
@@ -490,9 +498,22 @@
       "lat": 59.3368456,
       "lon": 17.9017216,
       "tags": {
+        "access": "customers",
         "amenity": "toilets",
-        "check_date": "2024-07-17",
-        "fee": "no"
+        "changing_table": "no",
+        "check_date": "2026-01-31",
+        "fee": "no",
+        "gender_segregated": "no",
+        "handwashing:soap": "yes",
+        "image": "https://commons.wikimedia.org/wiki/File:Toaletter_%C3%84ngby_camping_05.jpg",
+        "opening_hours": "24/7",
+        "toilets:disposal": "flush",
+        "toilets:hands_drying": "paper_towel",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated",
+        "wheelchair": "no",
+        "wikimedia_commons": "Category:Stockholm_Ängby_Camping"
       }
     },
     {
@@ -1195,8 +1216,8 @@
     {
       "type": "node",
       "id": 5869178329,
-      "lat": 59.3242388,
-      "lon": 18.0634683,
+      "lat": 59.324222,
+      "lon": 18.0634547,
       "tags": {
         "access": "yes",
         "amenity": "toilets",
@@ -1235,8 +1256,8 @@
     {
       "type": "node",
       "id": 5869178330,
-      "lat": 59.3242593,
-      "lon": 18.0633939,
+      "lat": 59.3242285,
+      "lon": 18.0634363,
       "tags": {
         "access": "yes",
         "amenity": "toilets",
@@ -1678,9 +1699,21 @@
       "lat": 59.3369703,
       "lon": 17.9036251,
       "tags": {
+        "access": "customers",
         "amenity": "toilets",
+        "changing_table": "no",
+        "check_date": "2026-01-31",
         "fee": "no",
-        "wheelchair": "no"
+        "gender_segregated": "no",
+        "handwashing:soap": "yes",
+        "image": "https://commons.wikimedia.org/wiki/File:Toaletter_%C3%84ngby_camping_01.jpg",
+        "opening_hours": "24/7",
+        "toilets:disposal": "flush",
+        "toilets:hands_drying": "paper_towel",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "wheelchair": "no",
+        "wikimedia_commons": "Category:Stockholm_Ängby_Camping"
       }
     },
     {
@@ -2361,9 +2394,24 @@
         "access": "yes",
         "amenity": "toilets",
         "changing_table": "no",
-        "check_date": "2024-07-18",
+        "check_date": "2026-01-31",
+        "description": "Öppet 8-16",
+        "fee": "no",
+        "gender_segregated": "no",
+        "handwashing:soap": "yes",
+        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Bj%C3%B6rklunds_hage_2926_jan_-_2.jpg",
+        "image:license": "CC0",
+        "name": "Toalett Björklunds hage",
+        "opening_hours": "Mo-Su 8:00-16:00",
+        "panoramax": "ee4da841-7c17-473c-8084-5e1c81e04940",
+        "panoramax:0": "f6ea4eff-7852-4eb9-8e7f-91fb13742a4e",
+        "panoramax:1": "71f6bdca-aac9-4ad6-99c6-3951a0438baa",
+        "supervised": "no",
         "toilets:disposal": "flush",
+        "toilets:hands_drying": "paper_towel",
         "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated",
         "wheelchair": "no"
       }
     },
@@ -2674,6 +2722,7 @@
         "image:licens": "CC0",
         "male": "yes",
         "mapillary": "173355591235014",
+        "name": "Pissoar Källargränd 4, Gamla stan",
         "opening_hours": "24/7",
         "panoramax": "7e4a34b6-6474-425b-afe0-20eb9eee9be2",
         "supervised": "no",
@@ -3490,7 +3539,16 @@
       ],
       "tags": {
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "check_date": "2026-01-31",
+        "fee": "no",
+        "gender_segregated": "no",
+        "image": "https://commons.wikimedia.org/wiki/File:Toalett_%C3%84ngbybadet_2026_jan_04.jpg",
+        "name": "Toalett Ängbybadet",
+        "opening_hours": "24/7",
+        "seasonal": "summer",
+        "supervised": "no",
+        "toilets:disposal": "flush"
       }
     },
     {
@@ -4396,42 +4454,6 @@
         "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
         "toilets:disposal": "flush",
         "unisex": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 1471823640,
-      "center": {
-        "lat": 59.3671778,
-        "lon": 17.869289
-      },
-      "nodes": [
-        13505467397,
-        8607430918,
-        13505467398,
-        13505467399,
-        13505467397
-      ],
-      "tags": {
-        "amenity": "toilets",
-        "building": "yes",
-        "check_date": "2026-01-31",
-        "fixme": "Stängd toialett. Nya offentliga toaletter kommer att placeras ut med start i mars 2026.",
-        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Gr%C3%B6tfatet_parklek_02.jpg",
-        "image:license": "CC0",
-        "mapillary": "1881838859174482",
-        "name": "Toalett Grötfatets parklek",
-        "note": "Closed due to Stockholm City supplier change; planned new toilets later in year",
-        "operator": "Stockholms stad",
-        "panoramax": "f3bf08d9-acc3-49a1-8aa4-0da3bb5c36a1",
-        "panoramax:0": "edd44a71-841c-43a5-8950-b4810d63d13b",
-        "panoramax:1": "86518762-1082-4c6a-984e-b7c118ab0736",
-        "panoramax:2": "54005bf2-8ba0-4ed0-880e-dea0937dd2b2",
-        "source:access": "https://trafik.stockholm/gator-torg/offentliga-toaletter/",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "toilets:num_chambers": "4",
-        "toilets:paper_supplied": "yes"
       }
     },
     {
