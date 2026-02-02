@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.10 2d4cfc48",
   "osm3s": {
-    "timestamp_osm_base": "2026-02-02T10:44:36Z",
+    "timestamp_osm_base": "2026-02-02T22:05:30Z",
     "timestamp_areas_base": "2026-01-23T01:22:35Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -714,6 +714,7 @@
       "lon": 18.0544,
       "tags": {
         "amenity": "toilets",
+        "mapillary": "2775546102646791",
         "source": "survey"
       }
     },
@@ -2703,13 +2704,12 @@
       "tags": {
         "access": "yes",
         "amenity": "toilets",
-        "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentlig_toalett_Olof_Palmes_gata_2026_Jan_01.jpg",
-        "image:licens": "CC0",
         "male": "yes",
         "mapillary": "4242416272666529",
         "toilets:disposal": "flush",
         "toilets:position": "urinal",
-        "wheelchair": "no"
+        "wheelchair": "no",
+        "wikimedia_commons": "File:Stockholms_stads_offentlig_toalett_Olof_Palmes_gata_2026_Jan_01.jpg"
       }
     },
     {
@@ -2723,8 +2723,6 @@
         "changing_table": "no",
         "check_date": "2026-01-29",
         "fee": "no",
-        "image": "https://commons.wikimedia.org/wiki/File:Stockholm-_K%C3%A4llargr%C3%A4nd_Urinoar_-_52324261780.jpg",
-        "image:licens": "CC0",
         "male": "yes",
         "mapillary": "173355591235014",
         "name": "Pissoar Källargränd 4, Gamla stan",
@@ -2734,7 +2732,8 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "no",
         "toilets:position": "urinal",
-        "wheelchair": "no"
+        "wheelchair": "no",
+        "wikimedia_commons": "File:Stockholm- Källargränd Urinoar - 52324261780.jpg"
       }
     },
     {
@@ -3264,6 +3263,7 @@
         "amenity": "toilets",
         "building": "yes",
         "fee": "no",
+        "mapillary": "1403177340528848",
         "wheelchair": "yes"
       }
     },
