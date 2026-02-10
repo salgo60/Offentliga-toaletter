@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.10 2d4cfc48",
   "osm3s": {
-    "timestamp_osm_base": "2026-02-02T22:05:30Z",
+    "timestamp_osm_base": "2026-02-10T16:58:45Z",
     "timestamp_areas_base": "2026-01-23T01:22:35Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -355,7 +355,7 @@
         "image": "https://commons.wikimedia.org/wiki/File:Stockholms_stads_offentliga_toalett_Slottskajen_-_Stallbron_-_Mynttorget_2926_jan_02.jpg",
         "image:license": "CC0",
         "mapillary": "941790256587289",
-        "namn": "Toalett Slottskajen - Stallbron - Mynttorget",
+        "name": "Toalett Slottskajen - Stallbron - Mynttorget",
         "opening_hours": "24/7",
         "panoramax": "57f661aa-eddc-4875-b4cc-ca9a79c58a10",
         "panoramax:0": "3e493753-ac2c-4698-9a04-fa421ea6ad6d",
@@ -1098,7 +1098,6 @@
       "lat": 59.3254053,
       "lon": 18.0758963,
       "tags": {
-        "access": "yes",
         "check_date": "2026-01-29",
         "disused:amenity": "toilets",
         "fee": "no",
@@ -3456,11 +3455,11 @@
         "building": "yes",
         "fee": "no",
         "mapillary": "523192829021947",
+        "portable": "yes",
         "toilets:disposal": "chemical",
         "toilets:handwashing:hand_disinfection": "yes",
         "toilets:location": "outdoor",
         "toilets:num_chambers": "1",
-        "toilets:portable": "yes",
         "unisex": "yes",
         "wheelchair": "no"
       }
